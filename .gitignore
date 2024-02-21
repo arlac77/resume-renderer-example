@@ -1,3 +1,4 @@
+.tmp
 build
 dist
 node_modules
@@ -6,3 +7,7 @@ node_modules
 *_en.html
 *.pdf
 *.docx
+.test
+/node_modules/**
+*.log
+*.dump
