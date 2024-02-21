@@ -1,7 +1,8 @@
-.test
-/node_modules/**
-.tmp
 build
+dist
+node_modules
 .DS_Store
-*.log
-*.dump
+*_de.html
+*_en.html
+*.pdf
+*.docx

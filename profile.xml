@@ -26,7 +26,6 @@
 	<focus>
 		<item since="1990">
 			<title xml:lang="en">Perl Development</title>
-			<title xml:lang="de">Perl Anwendungsentwicklung</title>
 			<description xml:lang="de">
 				Formatkonvertierung, Konfigurationsmanagement
 			</description>
