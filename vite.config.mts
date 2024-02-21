@@ -7,7 +7,7 @@ import { mkdir, cp } from "node:fs/promises";
 const relevance = 8;
 const from_dates = ["2008-01-01"];
 const languages = ["de", "en"];
-const name = "max_musterman";
+const name = "max_mustermann";
 
 const efp = promisify(execFile);
 
