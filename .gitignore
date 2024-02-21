@@ -1,0 +1,7 @@
+.test
+/node_modules/**
+.tmp
+build
+.DS_Store
+*.log
+*.dump

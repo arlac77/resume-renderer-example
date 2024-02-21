@@ -1,33 +1,37 @@
 {
   "name": "resume-renderer-example",
   "version": "0.0.0-semantic-release",
-  "description": "work profile",
+  "private": true,
   "publishConfig": {
     "access": "restricted"
   },
-  "private": true,
+  "description": "work profile",
+  "keywords": [
+    "vite"
+  ],
   "contributors": [
     {
       "name": "Markus Felten",
       "email": "markus.felten@gmx.de"
     }
   ],
+  "license": "BSD-2-Clause",
   "scripts": {
+    "prepare": "vite build",
+    "prepare:xslt": "xslt3 -xsl:a.xsl -s:source.xml -o:out.xml",
     "start": "vite",
     "test": "npm run test:xspec",
     "test:xspec": "../xspec/bin/xspec.sh tests/knowledge-merge.xspec",
     "lint:css": "stylelint ./src/*.css",
     "lint": "npm run lint:css",
     "lint:xml": "rnv schema/profile-1.0.rnc profile.xml",
+    "build": "npm run prepare:xslt",
+    "normalize-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/normalize-knowledge.xsl -s:profile.xml >knowledge-normalized.xml",
     "preview": "vite preview",
-    "update-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2knowledge.xsl -s:profile.xml >knowledge-new.xml",
-    "normalize-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/normalize-knowledge.xsl -s:profile.xml >knowledge-normalized.xml"
+    "update-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2knowledge.xsl -s:profile.xml >knowledge-new.xml"
   },
   "dependencies": {
     "resume-renderer": "^1.1.0"
-  },
-  "optionalDependencies": {
-    "mf-hosting-frontend": "^2.2.5"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^11.1.0",
@@ -41,14 +45,23 @@
     "vite-plugin-compression2": "^0.12.0",
     "xslt3": "^2.6.0"
   },
-
-  "license": "BSD-2-Clause",
+  "optionalDependencies": {
+    "mf-hosting-frontend": "^2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arlac77/resume-renderer-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arlac77/resume-renderer-example/issues"
+  },
+  "homepage": "https://github.com/arlac77/resume-renderer-example#readme",
   "pkgbuild": {
     "content": {
       "${install.dir}": "dist/"
     },
-    "nginx.location.trailer": "  access_log off; ",
     "frontend": true,
+    "nginx.location.trailer": "  access_log off; ",
     "static": true
   },
   "release": {
@@ -68,6 +81,12 @@
           "publishCmd": "npx npm-pkgbuild"
         }
       ]
+    ]
+  },
+  "template": {
+    "inheritFrom": [
+      "arlac77/template-vite",
+      "arlac77/template-xslt"
     ]
   }
 }
