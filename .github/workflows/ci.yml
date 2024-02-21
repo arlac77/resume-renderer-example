@@ -57,6 +57,7 @@ jobs:
           https://github.com/ThePoorPilot/pacman-utils/releases/download/5.2.2-3_2.31-0/pacman-utils_5.2.2-3_amd64.deb
 
           sudo apt-get install -f ./pacman-utils_5.2.2-3_amd64.deb
+
           sudo apt-get -y install fop
       - uses: actions/checkout@v4.1.1
       - uses: actions/setup-node@v4.0.2
