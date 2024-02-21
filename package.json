@@ -1,0 +1,73 @@
+{
+  "name": "resume-renderer-example",
+  "version": "0.0.0-semantic-release",
+  "description": "work profile",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "private": true,
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "scripts": {
+    "start": "vite",
+    "test": "npm run test:xspec",
+    "test:xspec": "../xspec/bin/xspec.sh tests/knowledge-merge.xspec",
+    "lint:css": "stylelint ./src/*.css",
+    "lint": "npm run lint:css",
+    "lint:xml": "rnv schema/profile-1.0.rnc profile.xml",
+    "preview": "vite preview",
+    "update-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2knowledge.xsl -s:profile.xml >knowledge-new.xml",
+    "normalize-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/normalize-knowledge.xsl -s:profile.xml >knowledge-normalized.xml"
+  },
+  "dependencies": {
+    "resume-renderer": "^1.1.0"
+  },
+  "optionalDependencies": {
+    "mf-hosting-frontend": "^2.2.5"
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "npm-pkgbuild": "^13.0.20",
+    "semantic-release": "^23.0.2",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0",
+    "vite": "^5.1.4",
+    "vite-plugin-compression2": "^0.12.0",
+    "xslt3": "^2.6.0"
+  },
+
+  "license": "BSD-2-Clause",
+  "pkgbuild": {
+    "content": {
+      "${install.dir}": "dist/"
+    },
+    "nginx.location.trailer": "  access_log off; ",
+    "frontend": true,
+    "static": true
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": "npx vite build"
+        }
+      ],
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": "npx npm-pkgbuild"
+        }
+      ]
+    ]
+  }
+}

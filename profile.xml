@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="node_modules/resume-renderer/schema/profile-1.0.rnc"?>
+<profile xmlns="http://mfelten.de/mf/profile">
+	<version>2024-02</version>
+	<person>
+		<initials>M</initials>
+		<initials>M</initials>
+		<name>Max</name>
+		<surname>Mustermann</surname>
+		<birthdate>1999</birthdate>
+		<street>Hauptstraße 1</street>
+		<postal-code>12345</postal-code>
+		<city></city>
+		<country>germany</country>
+		<email>Max.Musterman@mail.de</email>
+		<phone>+49 123 456789</phone>
+		<mobile>+49 123 456789</mobile>
+		<picture>../MaxMusterman.jpg</picture>
+		<github>max_musterman</github>
+		<telegram>max_musterman</telegram>
+	</person>
+
+	<language name="english" type="fluent" />
+	<language name="german" type="mother tongue" />
+
+	<focus>
+		<item since="1990">
+			<title xml:lang="en">Perl Development</title>
+			<title xml:lang="de">Perl Anwendungsentwicklung</title>
+			<description xml:lang="de">
+				Formatkonvertierung, Konfigurationsmanagement
+			</description>
+			<description xml:lang="en">
+				format converters, config management
+			</description>
+		</item>
+	</focus>
+
+	<job>
+		<from>2020/01</from>
+		<to>2020/03</to>
+		<title>System Developer</title>
+		<customer>The Great Comany</customer>
+		<summary xml:lang="de">
+			Design und Entwicklung eines Raster Overlay CAD Systems / Dokumentenarchiv,
+			Entwicklung eines Dokumenten- Management-Systems
+			für großformatige Zeichnungen und Karten, inklusive CAD - Schnittstelle,
+			Schulung, SW / HW - Installation, Integration in die bestehende DV
+		</summary>
+		<summary xml:lang="en">
+			Design and development of a CAD overlay system for large scanned images (maps, technical
+			drawings).
+			Development of a document managment system.
+			Integration into customer infrastructure.
+		</summary>
+
+		<details xml:lang="de">
+			<p>
+				Entwicklung einer graphischen Benutzeroberfläche für ein
+				High-Perfomance-Graphic-Subsystem.
+			</p>
+			<p>
+				Entwicklung eines makrofähigen 2D CAD Systems.
+			</p>
+		</details>
+		<details xml:lang="en">
+			<p>
+				Implemenetation of an graphical user interface using dedicate hw acceleration.
+			</p>
+			<p>
+				Design and implementation of a 2d CAD system with scripting capabilities.
+			</p>
+		</details>
+
+		<software>
+			<name>AIX</name>
+			<version>3</version>
+		</software>
+		<software>
+			<name>SunOS</name>
+			<version>3.5</version>
+		</software>
+		<software>
+			<name>C</name>
+		</software>
+	</job>
+</profile>
