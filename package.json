@@ -3,7 +3,7 @@
   "version": "0.0.0-semantic-release",
   "private": true,
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "description": "work profile",
   "keywords": [
@@ -85,6 +85,7 @@
   },
   "template": {
     "inheritFrom": [
+      "arlac77/template-arlac77-github",
       "arlac77/template-vite",
       "arlac77/template-xslt"
     ]
