@@ -80,12 +80,54 @@
         {
           "publishCmd": "npx npm-pkgbuild"
         }
+      ],
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": "npx npm-pkgbuild --available --continue --publish dist"
+        }
+      ],
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "dist/*.deb",
+              "label": "any Debian Package"
+            },
+            {
+              "path": "dist/*any.pkg.*",
+              "label": "any Arch Linux Package"
+            },
+            {
+              "path": "dist/*x86_64.pkg.*",
+              "label": "x86_64 Arch Linux Package"
+            },
+            {
+              "path": "dist/*aarch64.pkg.*",
+              "label": "arm64 Arch Linux Package"
+            },
+            {
+              "path": "dist/*noarch.rpm",
+              "label": "noarch RPM"
+            },
+            {
+              "path": "dist/*x86_64.rpm",
+              "label": "x86_64 RPM"
+            },
+            {
+              "path": "dist/*aarch64.rpm",
+              "label": "arm64 RPM"
+            }
+          ]
+        }
       ]
     ]
   },
   "template": {
     "inheritFrom": [
       "arlac77/template-arlac77-github",
+      "arlac77/template-npm-pkgbuild",
       "arlac77/template-vite",
       "arlac77/template-xslt"
     ]
