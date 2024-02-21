@@ -49,6 +49,7 @@ jobs:
           node-version: 20.11.1
           cache: npm
           cache-dependency-path: package-lock.json
+      - run: sudo apt-get -y install fop
       - run: npm ci
       - run: npx semantic-release
         env:
