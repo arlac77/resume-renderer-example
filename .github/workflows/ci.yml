@@ -8,6 +8,10 @@ name: CI
     branches:
       - master
       - next
+
+permissions:
+  contents: read
+      
 jobs:
   test-node:
     runs-on: ubuntu-latest
@@ -43,21 +47,6 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
-      - uses: actions/checkout@v4.1.1
-      - uses: actions/setup-node@v4.0.2
-        with:
-          node-version: 20.11.1
-          cache: npm
-          cache-dependency-path: package-lock.json
-      - run: sudo apt-get -y install fop
-      - run: npm ci
-      - run: npx semantic-release
-        env:
-          CI: 'true'
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PKGBUILD_PUBLISH: ${{ secrets.PKGBUILD_PUBLISH }}
-          PKGEXT: .pkg.tar.xz
       - name: Dependencies
         run: >
           sudo apt-get update
@@ -68,6 +57,21 @@ jobs:
           https://github.com/ThePoorPilot/pacman-utils/releases/download/5.2.2-3_2.31-0/pacman-utils_5.2.2-3_amd64.deb
 
           sudo apt-get install -f ./pacman-utils_5.2.2-3_amd64.deb
+          sudo apt-get -y install fop
+      - uses: actions/checkout@v4.1.1
+      - uses: actions/setup-node@v4.0.2
+        with:
+          node-version: 20.11.1
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - run: npm ci
+      - run: npx semantic-release
+        env:
+          CI: 'true'
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PKGBUILD_PUBLISH: ${{ secrets.PKGBUILD_PUBLISH }}
+          PKGEXT: .pkg.tar.xz
   finish:
     needs:
       - test-node
@@ -79,5 +83,3 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: build/coverage/lcov.info
           parallel-finished: true
-permissions:
-  contents: read
