@@ -19,8 +19,6 @@
   "scripts": {
     "prepare": "vite build",
     "start": "vite",
-    "test": "npm run test:xspec",
-    "test:xspec": "../xspec/bin/xspec.sh tests/knowledge-merge.xspec",
     "lint:css": "stylelint ./src/*.css",
     "lint": "npm run lint:css",
     "lint:xml": "rnv schema/profile-1.0.rnc profile.xml",
@@ -35,6 +33,7 @@
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/release-notes-generator": "^12.1.0",
+    "@types/node": "^20.11.19",
     "npm-pkgbuild": "^13.0.20",
     "semantic-release": "^23.0.2",
     "stylelint": "^16.2.1",
