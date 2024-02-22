@@ -27,7 +27,7 @@
     "update-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2knowledge.xsl -s:profile.xml >knowledge-new.xml"
   },
   "dependencies": {
-    "resume-renderer": "^1.1.0"
+    "resume-renderer": "^1.1.1"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^11.1.0",
