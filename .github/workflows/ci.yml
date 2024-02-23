@@ -45,6 +45,7 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
+      - run: sudo apt-get -y install fop
       - name: Dependencies
         run: >
           sudo apt-get update
