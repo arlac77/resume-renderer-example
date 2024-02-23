@@ -27,7 +27,6 @@
     "update-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2knowledge.xsl -s:profile.xml >knowledge-new.xml"
   },
   "dependencies": {
-    "jspdf": "^2.5.1",
     "playwright": "^1.41.2",
     "resume-renderer": "^1.1.1"
   },
