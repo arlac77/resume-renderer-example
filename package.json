@@ -59,10 +59,10 @@
     "content": {
       "${install.dir}": "dist/"
     },
-    "frontend": true,
-    "static": true,
     "example": true,
-    "nginx.location.trailer": "  access_log off; "
+    "frontend": true,
+    "nginx.location.trailer": "  access_log off; ",
+    "static": true
   },
   "release": {
     "plugins": [
