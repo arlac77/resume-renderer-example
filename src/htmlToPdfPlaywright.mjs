@@ -10,6 +10,6 @@ const path = new URL(".", import.meta.url).pathname;
     `file://${path}/max_mustermann_de.html`
   );
   //await page.waitForTimeout(2000);
-  await page.pdf({ path: `document.pdf` });
+  await page.pdf({ path: `max_mustermann_de.htmlTO.pdf`, printBackground: true });
   await browser.close();
 })();
