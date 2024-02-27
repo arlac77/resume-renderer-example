@@ -1,6 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="node_modules/resume-renderer/schema/profile-1.0.rnc"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="node_modules/resume-renderer/schema/profile-1.0.rnc"?>
 <knowledge xmlns="http://mfelten.de/mf/profile">
+   <software relevance="3">
+      <name>3/50-VME</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="3">
+      <name>3B2</name>
+      <category>hardware</category>
+      <manufacturer>AT&amp;T</manufacturer>
+   </software>
+   <software relevance="1">
+      <name>6.4G 12-WORM Drives</name>
+      <category>hardware</category>
+      <manufacturer>SONY</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>9000 C240</name>
+      <category>hardware</category>
+      <manufacturer>HP</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>9000 G60</name>
+      <category>hardware</category>
+      <manufacturer>HP</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>9000/600</name>
+      <category>hardware</category>
+      <manufacturer>HP</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>A1000</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>A5200</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
    <software relevance="4" href="https://gitea.com/gitea/act_runner">
       <name>act_runner</name>
       <category>ci</category>
@@ -9,6 +48,8 @@
    </software>
    <software relevance="7" href="https://activemq.apache.org">
       <name>activemq</name>
+      <category>JMS</category>
+      <category>messaging</category>
       <manufacturer>Apache Foundation</manufacturer>
       <version>3.2.2</version>
       <version>4.1.1</version>
@@ -69,6 +110,7 @@
    <software relevance="7" href="https://archlinux.org">
       <name>archlinux</name>
       <category>distribution</category>
+      <category>linux</category>
    </software>
    <software relevance="8" href="https://jfrog.com/artifactory">
       <name>artifactory</name>
@@ -77,6 +119,7 @@
    </software>
    <software relevance="7" href="https://avajs.dev">
       <name>ava</name>
+      <category>javascript</category>
       <category>testing</category>
       <version>5.3</version>
       <version>6.0</version>
@@ -94,10 +137,16 @@
    </software>
    <software relevance="6">
       <name>Axis</name>
+      <category>java</category>
       <category>webservice</category>
       <manufacturer>Apache Foundation</manufacturer>
       <version>1.1</version>
       <version>1.4</version>
+   </software>
+   <software relevance="2">
+      <name>B50</name>
+      <category>hardware</category>
+      <manufacturer>IBM</manufacturer>
    </software>
    <software relevance="4" href="https://www.bacula.org">
       <name>bacula</name>
@@ -118,6 +167,11 @@
       <category>version control</category>
       <manufacturer>Atlassian</manufacturer>
    </software>
+   <software relevance="2">
+      <name>BitSlice &amp; polygon engines</name>
+      <category>hardware</category>
+      <manufacturer>Primargraphics</manufacturer>
+   </software>
    <software relevance="6" href="https://www.bouncycastle.org">
       <name>BouncyCastle</name>
       <category>cryptography</category>
@@ -135,11 +189,12 @@
       <version>1.0.14</version>
       <version>1.0.15</version>
       <version>1.0.25</version>
+      <version>1.0.29</version>
       <version>1.0.0</version>
       <version>1.0.2</version>
       <version>1.0.6</version>
    </software>
-   <software skill="expert" relevance="9">
+   <software skill="expert" relevance="9" href="https://www.iso.org/standard/74528.html">
       <name>C</name>
       <category>language</category>
    </software>
@@ -147,11 +202,11 @@
       <name>C-ISAM</name>
       <manufacturer>Informix</manufacturer>
    </software>
-   <software skill="expert" relevance="8">
+   <software skill="expert" relevance="8" href="https://isocpp.org">
       <name>C++</name>
       <category>language</category>
    </software>
-   <software relevance="5">
+   <software relevance="5" href="https://www.whiterabbitsecurity.com/produkte/certnanny">
       <name>CertNanny</name>
       <category>security</category>
       <version>0.10</version>
@@ -159,6 +214,7 @@
    <software relevance="5">
       <name>charles</name>
       <category>tool</category>
+      <category>web</category>
       <version>1.8</version>
    </software>
    <software relevance="5" href="https://circleci.com">
@@ -184,6 +240,8 @@
    </software>
    <software relevance="4">
       <name>commons-httpclient</name>
+      <category>java</category>
+      <category>web</category>
       <manufacturer>Apache Foundation</manufacturer>
       <version>3.0</version>
    </software>
@@ -211,6 +269,11 @@
       <version>2.2</version>
    </software>
    <software relevance="5">
+      <name>Crypto Safe</name>
+      <category>hardware</category>
+      <manufacturer>ARL</manufacturer>
+   </software>
+   <software relevance="5">
       <name>CryptoKit</name>
       <category>cryptography</category>
       <category>java</category>
@@ -224,6 +287,7 @@
    <software relevance="7" href="https://curl.se">
       <name>curl</name>
       <category>tool</category>
+      <category>web</category>
       <version>7.70.0</version>
       <version>8.5.0</version>
       <version>8.6.0</version>
@@ -252,6 +316,21 @@
       <category>ci</category>
       <manufacturer>Microsoft</manufacturer>
    </software>
+   <software relevance="2">
+      <name>Div. Modelle</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>Div. Workstation</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>diverse Plotter</name>
+      <category>hardware</category>
+      <manufacturer>Versatec</manufacturer>
+   </software>
    <software relevance="4">
       <name>docbook</name>
       <version>4.2</version>
@@ -265,11 +344,58 @@
       <name>docker</name>
       <category>cloud</category>
       <category>container</category>
+      <version>25.0.3</version>
       <version>1.25.0</version>
       <version>1.13</version>
    </software>
+   <software relevance="2">
+      <name>E-250</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>E-450</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="5">
+      <name>E10000</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>E250</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>E4000</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>E420</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>E450</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>E4500</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>E6000</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
    <software relevance="7" href="https://www.eclipse.org">
       <name>eclipse</name>
+      <category>ide</category>
       <version>3.2.1</version>
       <version>2.0</version>
       <version>3.0</version>
@@ -277,6 +403,8 @@
    </software>
    <software relevance="6">
       <name>ember.js</name>
+      <category>framework</category>
+      <category>web</category>
       <version>0.9</version>
       <version>1.0</version>
       <version>1.1</version>
@@ -298,9 +426,15 @@
       <version>3.2.2</version>
       <version>3.2</version>
    </software>
+   <software relevance="2">
+      <name>Escala PL3200R</name>
+      <category>hardware</category>
+      <manufacturer>Bull</manufacturer>
+   </software>
    <software relevance="7" href="https://expressjs.com">
       <name>express</name>
       <category>framework</category>
+      <category>javascript</category>
       <category>web</category>
       <version>4.18.2</version>
    </software>
@@ -355,6 +489,7 @@
       <version>1.20.5</version>
       <version>1.21.0</version>
       <version>1.21.1</version>
+      <version>1.21.6</version>
    </software>
    <software relevance="8" href="https://github.com">
       <name>github</name>
@@ -416,6 +551,14 @@
       <version>4.0.0</version>
       <version>3.91</version>
    </software>
+   <software relevance="2">
+      <name>H70</name>
+      <category>hardware</category>
+      <manufacturer>IBM</manufacturer>
+   </software>
+   <software relevance="1">
+      <name>hardware</name>
+   </software>
    <software relevance="8" href="https://helm.sh">
       <name>helm</name>
       <category>cloud</category>
@@ -467,6 +610,7 @@
    </software>
    <software relevance="3" href="https://www.iis.net">
       <name>IIS</name>
+      <category>web</category>
       <manufacturer>Microsoft</manufacturer>
    </software>
    <software relevance="3" href="https://www.cyrusimap.org">
@@ -494,6 +638,7 @@
    </software>
    <software relevance="2">
       <name>io.js</name>
+      <category>javascript</category>
       <version>1.0.4</version>
       <version>2.4.0</version>
    </software>
@@ -517,7 +662,7 @@
       <manufacturer>SUN</manufacturer>
       <version>4</version>
    </software>
-   <software skill="expert" relevance="9">
+   <software skill="expert" relevance="9" href="https://www.java.com">
       <name>java</name>
       <category>language</category>
       <manufacturer>Oracle</manufacturer>
@@ -529,7 +674,7 @@
       <version>1.6</version>
       <version>1.8</version>
    </software>
-   <software skill="expert" relevance="9">
+   <software skill="expert" relevance="9" href="https://ecma-international.org/publications-and-standards/standards/ecma-262">
       <name>javascript</name>
       <name>ecmascript</name>
       <category>language</category>
@@ -538,6 +683,7 @@
       <version>ES2016</version>
       <version>ES2020</version>
       <version>ES2022</version>
+      <version>ES2023</version>
    </software>
    <software relevance="7" href="https://www.redhat.com/de/technologies/jboss-middleware/application-platform">
       <name>jboss</name>
@@ -585,6 +731,11 @@
       <version>1.5</version>
       <version>1.7</version>
    </software>
+   <software relevance="9" href="https://www.json.org">
+      <name>json</name>
+      <category>json</category>
+      <category>serialization-format</category>
+   </software>
    <software relevance="7" href="https://koajs.com">
       <name>koa</name>
       <category>framework</category>
@@ -598,6 +749,11 @@
       <category>performance analyse</category>
       <version>3</version>
       <version>4.0</version>
+   </software>
+   <software relevance="2">
+      <name>LD 4600</name>
+      <category>hardware</category>
+      <manufacturer>CISCO</manufacturer>
    </software>
    <software relevance="7">
       <name>ldap server</name>
@@ -616,6 +772,11 @@
       <version>6.0</version>
       <version>6.1</version>
    </software>
+   <software relevance="2">
+      <name>LocalDirector 400</name>
+      <category>hardware</category>
+      <manufacturer>CISCO</manufacturer>
+   </software>
    <software relevance="3">
       <name>LPAR</name>
       <manufacturer>IBM</manufacturer>
@@ -624,6 +785,11 @@
       <name>luntbuild</name>
       <category>ci</category>
       <version>1.2.2</version>
+   </software>
+   <software relevance="2">
+      <name>M80</name>
+      <category>hardware</category>
+      <manufacturer>IBM</manufacturer>
    </software>
    <software relevance="7" href="https://pubs.opengroup.org/onlinepubs/9699919799/utilities">
       <name>make</name>
@@ -684,10 +850,25 @@
       <category>cloud</category>
    </software>
    <software relevance="2">
+      <name>Netra T1</name>
+      <category>hardware</category>
+      <manufacturer>SUN</manufacturer>
+   </software>
+   <software relevance="2">
       <name>NetWare</name>
       <category>os</category>
       <manufacturer>NOVELL</manufacturer>
       <version>3</version>
+   </software>
+   <software relevance="2">
+      <name>NeXTCube</name>
+      <category>hardware</category>
+      <manufacturer>NeXT</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>NeXTStation</name>
+      <category>hardware</category>
+      <manufacturer>NeXT</manufacturer>
    </software>
    <software relevance="2">
       <name>NeXTSTEP</name>
@@ -707,6 +888,7 @@
       <category>web</category>
       <version>1.25.2</version>
       <version>1.25.3</version>
+      <version>1.25.4</version>
    </software>
    <software relevance="9" href="https://nodejs.org">
       <name>Node.js</name>
@@ -716,6 +898,7 @@
       <version>21.4.0</version>
       <version>21.6.0</version>
       <version>21.6.1</version>
+      <version>21.6.2</version>
       <version>20.6.1</version>
       <version>0.10</version>
       <version>0.12</version>
@@ -744,6 +927,11 @@
       <version>8.0</version>
       <version>9.0</version>
       <version>10.0</version>
+   </software>
+   <software relevance="5">
+      <name>nShield</name>
+      <category>hardware</category>
+      <manufacturer>nCipher</manufacturer>
    </software>
    <software relevance="7" href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">
       <name>Objective-C</name>
@@ -807,6 +995,11 @@
       <version>13.5</version>
       <version>14.1</version>
       <version>14.2</version>
+   </software>
+   <software relevance="5">
+      <name>PC</name>
+      <category>hardware</category>
+      <manufacturer>Diverse</manufacturer>
    </software>
    <software skill="expert" relevance="8" href="https://www.perl.org">
       <name>perl</name>
@@ -873,9 +1066,19 @@
       <version>12.4</version>
       <version>13.0</version>
    </software>
+   <software relevance="2">
+      <name>PowerBook</name>
+      <category>hardware</category>
+      <manufacturer>Apple</manufacturer>
+   </software>
    <software relevance="3">
       <name>proguard</name>
       <version>0.95</version>
+   </software>
+   <software relevance="2">
+      <name>Proliant 1850R</name>
+      <category>hardware</category>
+      <manufacturer>Compaq</manufacturer>
    </software>
    <software relevance="4">
       <name>PXE</name>
@@ -886,6 +1089,11 @@
       <version>2</version>
       <version>2.6</version>
       <version>2.7</version>
+   </software>
+   <software relevance="2">
+      <name>Rackmounted PC</name>
+      <category>hardware</category>
+      <manufacturer>diverse</manufacturer>
    </software>
    <software relevance="4" href="https://rubyonrails.org">
       <name>rails</name>
@@ -933,6 +1141,7 @@
       <name>rollup</name>
       <category>build</category>
       <category>tool</category>
+      <version>4.12.0</version>
       <version>1.0</version>
       <version>2.0</version>
    </software>
@@ -943,6 +1152,26 @@
    <software relevance="3">
       <name>rrdtool</name>
       <version>1.1</version>
+   </software>
+   <software relevance="2">
+      <name>RS/6000 320H</name>
+      <category>hardware</category>
+      <manufacturer>IBM</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>RS/6000 B50</name>
+      <category>hardware</category>
+      <manufacturer>IBM</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>RS/6000 H70</name>
+      <category>hardware</category>
+      <manufacturer>IBM</manufacturer>
+   </software>
+   <software relevance="2">
+      <name>RS/6000 M80</name>
+      <category>hardware</category>
+      <manufacturer>IBM</manufacturer>
    </software>
    <software relevance="6" href="https://rsync.samba.org">
       <name>rsync</name>
@@ -965,6 +1194,7 @@
    <software relevance="8">
       <name>rustc</name>
       <category>build</category>
+      <category>rust</category>
       <version>1.47</version>
       <version>1.48</version>
       <version>1.50</version>
@@ -986,6 +1216,11 @@
       <version>9.4</version>
       <version>12.3</version>
    </software>
+   <software relevance="2">
+      <name>Scanner F-3095</name>
+      <category>hardware</category>
+      <manufacturer>Fijutsu</manufacturer>
+   </software>
    <software relevance="3">
       <name>sccs</name>
       <category>version control</category>
@@ -1003,6 +1238,10 @@
       <name>sendmail</name>
       <category>mda</category>
       <version>8</version>
+   </software>
+   <software relevance="5">
+      <name>serialization-format</name>
+      <category>serialization-format</category>
    </software>
    <software relevance="6">
       <name>server</name>
@@ -1033,6 +1272,9 @@
       <category>webservice</category>
       <category>xml</category>
       <version>1.1</version>
+   </software>
+   <software relevance="5">
+      <name>software</name>
    </software>
    <software relevance="4" href="https://www.oracle.com/solaris">
       <name>Solaris</name>
@@ -1107,6 +1349,7 @@
    </software>
    <software relevance="8" href="https://svelte.dev">
       <name>svelte</name>
+      <category>framework</category>
       <category>web</category>
       <version>3.23</version>
       <version>3.29</version>
@@ -1134,6 +1377,7 @@
       <version>245</version>
       <version>246.5</version>
       <version>247.4</version>
+      <version>255.3</version>
    </software>
    <software relevance="7" href="https://tailwindcss.com">
       <name>tailwindcss</name>
@@ -1180,6 +1424,10 @@
       <version>5</version>
       <version>5.5</version>
       <version>6.0</version>
+   </software>
+   <software relevance="5">
+      <name>tool</name>
+      <category>software</category>
    </software>
    <software relevance="4">
       <name>tortoise svn</name>
@@ -1247,6 +1495,7 @@
       <version>5.0.4</version>
       <version>5.0.6</version>
       <version>5.0.12</version>
+      <version>5.1.14</version>
       <version>2.5</version>
       <version>2.9</version>
       <version>3.0</version>
@@ -1275,6 +1524,7 @@
       <version>1.84.1</version>
       <version>1.84.2</version>
       <version>1.85.0</version>
+      <version>1.86.2</version>
       <version>1.28</version>
    </software>
    <software relevance="3">
@@ -1383,6 +1633,7 @@
    </software>
    <software relevance="6">
       <name>xcode</name>
+      <category>ide</category>
       <manufacturer>Apple Inc.</manufacturer>
       <version>4.3</version>
       <version>4.4</version>
@@ -1401,6 +1652,11 @@
    <software relevance="3">
       <name>xhyve</name>
       <version>1f46a3</version>
+   </software>
+   <software relevance="7" href="http://www.xml.com">
+      <name>xml</name>
+      <category>serialization-format</category>
+      <category>xml</category>
    </software>
    <software relevance="5">
       <name>xom</name>
@@ -1436,6 +1692,11 @@
    <software relevance="5">
       <name>yacc</name>
       <category>parser</category>
+   </software>
+   <software relevance="9" href="https://yaml.org">
+      <name>yaml</name>
+      <category>serialization-format</category>
+      <category>yaml</category>
    </software>
    <software relevance="7" href="https://yarnpkg.com">
       <name>yarn</name>
