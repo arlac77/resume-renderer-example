@@ -23,7 +23,7 @@
     "lint": "npm run lint:css",
     "lint:xml": "rnv node_modules/resume-renderer/schema/profile-1.0.rnc profile.xml",
     "preview": "vite preview",
-    "update-skills": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2skills.xsl skill.url=file:$(pwd)/skills.xml -s:profile.xml >skills-new.xml"
+    "update-skills": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2skills.xsl skills.url=file:$(pwd)/skills.xml -s:profile.xml >skills-new.xml"
   },
   "dependencies": {
     "playwright": "^1.42.0",
