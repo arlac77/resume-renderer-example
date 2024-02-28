@@ -26,12 +26,12 @@
 	<focus>
 		<item since="1990">
 			<title xml:lang="en">Perl Development</title>
-			<description xml:lang="de">
+			<details xml:lang="de">
 				Formatkonvertierung, Konfigurationsmanagement
-			</description>
-			<description xml:lang="en">
+			</details>
+			<details xml:lang="en">
 				format converters, config management
-			</description>
+			</details>
 		</item>
 	</focus>
 
