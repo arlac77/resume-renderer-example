@@ -71,16 +71,16 @@
 			</p>
 		</details>
 
-		<software>
+		<skill>
 			<name>AIX</name>
 			<version>3</version>
-		</software>
-		<software>
+		</skill>
+		<skill>
 			<name>SunOS</name>
 			<version>3.5</version>
-		</software>
-		<software>
+		</skill>
+		<skill level="expert">
 			<name>C</name>
-		</software>
+		</skill>
 	</job>
 </profile>

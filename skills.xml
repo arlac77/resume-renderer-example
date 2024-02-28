@@ -1,52 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="node_modules/resume-renderer/schema/profile-1.0.rnc"?>
 <knowledge xmlns="http://mfelten.de/mf/profile">
-   <software relevance="3">
+
+   <skill relevance="8" href="https://www.axelos.com/certifications/itil-service-management">
+      <category>methodology</category>
+      <name>ITIL</name>
+   </skill>
+   <skill relevance="8" href="https://www.scrum.org">
+      <category>methodology</category>
+      <name>SCRUM</name>
+   </skill>
+   <skill relevance="8">
+      <category>methodology</category>
+      <name>DevOps</name>
+   </skill>
+   <skill relevance="8" href="http://agilemanifesto.org">
+      <category>methodology</category>
+      <name>agile</name>
+   </skill>
+
+   <skill relevance="3">
       <name>3/50-VME</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>3B2</name>
       <category>hardware</category>
       <manufacturer>AT&amp;T</manufacturer>
-   </software>
-   <software relevance="1">
+   </skill>
+   <skill relevance="1">
       <name>6.4G 12-WORM Drives</name>
       <category>hardware</category>
       <manufacturer>SONY</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>9000 C240</name>
       <category>hardware</category>
       <manufacturer>HP</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>9000 G60</name>
       <category>hardware</category>
       <manufacturer>HP</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>9000/600</name>
       <category>hardware</category>
       <manufacturer>HP</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>A1000</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>A5200</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="4" href="https://gitea.com/gitea/act_runner">
+   </skill>
+   <skill relevance="4" href="https://gitea.com/gitea/act_runner">
       <name>act_runner</name>
       <category>ci</category>
       <version>0.2.5</version>
       <version>0.2.6</version>
-   </software>
-   <software relevance="7" href="https://activemq.apache.org">
+   </skill>
+   <skill relevance="7" href="https://activemq.apache.org">
       <name>activemq</name>
       <category>JMS</category>
       <category>messaging</category>
@@ -54,8 +72,8 @@
       <version>3.2.2</version>
       <version>4.1.1</version>
       <version>4.1</version>
-   </software>
-   <software relevance="5" href="https://www.ibm.com/de-de/products/aix">
+   </skill>
+   <skill relevance="5" href="https://www.ibm.com/de-de/products/aix">
       <name>AIX</name>
       <category>os</category>
       <manufacturer>IBM</manufacturer>
@@ -66,14 +84,14 @@
       <version>5.2</version>
       <version>5.3</version>
       <version>6.1</version>
-   </software>
-   <software relevance="8" href="https://www.ansible.com">
+   </skill>
+   <skill relevance="8" href="https://www.ansible.com">
       <name>ansible</name>
       <version>2.9.10</version>
       <version>2.9.11</version>
       <version>2</version>
-   </software>
-   <software skill="expert" relevance="3" href="https://ant.apache.org">
+   </skill>
+   <skill skill="expert" relevance="3" href="https://ant.apache.org">
       <name>ant</name>
       <category>build</category>
       <category>java</category>
@@ -88,44 +106,44 @@
       <version>1.4</version>
       <version>1.5</version>
       <version>1.6</version>
-   </software>
-   <software relevance="9" href="https://www.antlr.org">
+   </skill>
+   <skill relevance="9" href="https://www.antlr.org">
       <name>antlr</name>
       <category>parser</category>
       <version>2.7.5</version>
       <version>2.6</version>
       <version>3.0</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Appkit</name>
       <manufacturer>NeXT</manufacturer>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>AQ</name>
       <category>message broker</category>
       <category>messaging</category>
       <manufacturer>Oracle</manufacturer>
       <version>9.1</version>
-   </software>
-   <software relevance="7" href="https://archlinux.org">
+   </skill>
+   <skill relevance="7" href="https://archlinux.org">
       <name>archlinux</name>
       <category>distribution</category>
       <category>linux</category>
-   </software>
-   <software relevance="8" href="https://jfrog.com/artifactory">
+   </skill>
+   <skill relevance="8" href="https://jfrog.com/artifactory">
       <name>artifactory</name>
       <category>artifact store</category>
       <manufacturer>JFrog</manufacturer>
-   </software>
-   <software relevance="7" href="https://avajs.dev">
+   </skill>
+   <skill relevance="7" href="https://avajs.dev">
       <name>ava</name>
       <category>javascript</category>
       <category>testing</category>
       <version>5.3</version>
       <version>6.0</version>
       <version>6.1</version>
-   </software>
-   <software relevance="7">
+   </skill>
+   <skill relevance="7">
       <name>Aveksa Compliance Manager</name>
       <name>RSA Identity Management and Governance</name>
       <category>iam</category>
@@ -134,55 +152,55 @@
       <version>5.1</version>
       <version>5.5</version>
       <version>6.8</version>
-   </software>
-   <software relevance="6">
+   </skill>
+   <skill relevance="6">
       <name>Axis</name>
       <category>java</category>
       <category>webservice</category>
       <manufacturer>Apache Foundation</manufacturer>
       <version>1.1</version>
       <version>1.4</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>B50</name>
       <category>hardware</category>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="4" href="https://www.bacula.org">
+   </skill>
+   <skill relevance="4" href="https://www.bacula.org">
       <name>bacula</name>
       <category>backup</category>
       <version>1.3</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>bash</name>
       <category>language</category>
       <category>shell</category>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>batik</name>
       <manufacturer>Apache Foundation</manufacturer>
-   </software>
-   <software relevance="8" href="https://bitbucket.org/product/">
+   </skill>
+   <skill relevance="8" href="https://bitbucket.org/product/">
       <name>Bitbucket</name>
       <category>version control</category>
       <manufacturer>Atlassian</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>BitSlice &amp; polygon engines</name>
       <category>hardware</category>
       <manufacturer>Primargraphics</manufacturer>
-   </software>
-   <software relevance="6" href="https://www.bouncycastle.org">
+   </skill>
+   <skill relevance="6" href="https://www.bouncycastle.org">
       <name>BouncyCastle</name>
       <category>cryptography</category>
       <category>java</category>
       <version>1.26</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Builder</name>
       <manufacturer>Gupta</manufacturer>
-   </software>
-   <software relevance="8" href="https://bun.sh">
+   </skill>
+   <skill relevance="8" href="https://bun.sh">
       <name>bun</name>
       <category>javascript</category>
       <version>1.0.9</version>
@@ -193,98 +211,103 @@
       <version>1.0.0</version>
       <version>1.0.2</version>
       <version>1.0.6</version>
-   </software>
-   <software skill="expert" relevance="9" href="https://www.iso.org/standard/74528.html">
+   </skill>
+   <skill skill="expert" relevance="9" href="https://www.iso.org/standard/74528.html">
       <name>C</name>
       <category>language</category>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>C-ISAM</name>
       <manufacturer>Informix</manufacturer>
-   </software>
-   <software skill="expert" relevance="8" href="https://isocpp.org">
+   </skill>
+   <skill skill="expert" relevance="8" href="https://isocpp.org">
       <name>C++</name>
       <category>language</category>
-   </software>
-   <software relevance="5" href="https://www.whiterabbitsecurity.com/produkte/certnanny">
+   </skill>
+   <skill relevance="5" href="https://www.whiterabbitsecurity.com/produkte/certnanny">
       <name>CertNanny</name>
       <category>security</category>
       <version>0.10</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>charles</name>
       <category>tool</category>
       <category>web</category>
       <version>1.8</version>
-   </software>
-   <software relevance="5" href="https://circleci.com">
+   </skill>
+   <skill relevance="5" href="https://circleci.com">
       <name>CircleCI</name>
       <category>ci</category>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Cluster Server</name>
       <manufacturer>Veritas</manufacturer>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>CM-Synergy</name>
       <category>version control</category>
       <manufacturer>Telelogic</manufacturer>
       <version>6.4</version>
-   </software>
-   <software relevance="6" href="https://cmake.org">
+   </skill>
+   <skill relevance="6" href="https://cmake.org">
       <name>cmake</name>
       <category>build</category>
       <category>tool</category>
       <version>3.19.1</version>
       <version>3.28.0</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>commons-httpclient</name>
       <category>java</category>
       <category>web</category>
       <manufacturer>Apache Foundation</manufacturer>
       <version>3.0</version>
-   </software>
-   <software relevance="6">
+   </skill>
+   <skill relevance="6">
       <name>Confluence</name>
       <manufacturer>Atlassian</manufacturer>
-   </software>
-   <software relevance="7" href="https://github.com/senchalabs/connect">
+   </skill>
+   <skill relevance="7" href="https://github.com/senchalabs/connect">
       <name>connect</name>
       <category>framework</category>
       <category>web</category>
       <version>3.7.0</version>
-   </software>
-   <software relevance="7" href="https://www.hashicorp.com/products/consul">
+   </skill>
+   <skill relevance="7" href="https://www.hashicorp.com/products/consul">
       <name>consul</name>
       <category>cloud</category>
       <category>service mesh</category>
       <manufacturer>HashiCorp</manufacturer>
       <version>1.7.4</version>
       <version>1.8.0</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>CruiseControl</name>
       <category>ci</category>
       <version>2.2</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>Crypto Safe</name>
       <category>hardware</category>
       <manufacturer>ARL</manufacturer>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>CryptoKit</name>
       <category>cryptography</category>
       <category>java</category>
       <manufacturer>ARL</manufacturer>
       <version>1.2</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="5" href="https://datatracker.ietf.org/doc/html/rfc4180">
+      <name>CSV</name>
+      <category>CSV</category>
+      <category>serialization-format</category>
+   </skill>
+   <skill relevance="3">
       <name>ctlib</name>
       <manufacturer>Sybase</manufacturer>
-   </software>
-   <software relevance="7" href="https://curl.se">
+   </skill>
+   <skill relevance="7" href="https://curl.se">
       <name>curl</name>
       <category>tool</category>
       <category>web</category>
@@ -292,116 +315,121 @@
       <version>8.5.0</version>
       <version>8.6.0</version>
       <version>8.1.2</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>cvs</name>
       <category>version control</category>
       <version>11</version>
-   </software>
-   <software relevance="4" href="https://dlang.org">
+   </skill>
+   <skill relevance="4" href="https://dlang.org">
       <name>D</name>
       <category>language</category>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>DBD::Sybase</name>
       <category>perl</category>
       <version>0.9</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>dbkit</name>
       <manufacturer>NeXT</manufacturer>
-   </software>
-   <software relevance="6" href="https://github.com/dependabot">
+   </skill>
+   <skill relevance="6" href="https://github.com/dependabot">
       <name>dependabot</name>
       <category>ci</category>
       <manufacturer>Microsoft</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Div. Modelle</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Div. Workstation</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>diverse Plotter</name>
       <category>hardware</category>
       <manufacturer>Versatec</manufacturer>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>docbook</name>
       <version>4.2</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>docbook-xsl</name>
       <category>xml</category>
       <version>1.71.1</version>
-   </software>
-   <software relevance="8" href="https://www.docker.com">
+   </skill>
+   <skill relevance="8" href="https://www.docker.com">
       <name>docker</name>
       <category>cloud</category>
       <category>container</category>
       <version>25.0.3</version>
       <version>1.25.0</version>
       <version>1.13</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>E-250</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>E-450</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>E10000</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>E250</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>E4000</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>E420</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>E450</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>E4500</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>E6000</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="7" href="https://www.eclipse.org">
+   </skill>
+   <skill relevance="7" href="https://www.eclipse.org">
       <name>eclipse</name>
       <category>ide</category>
       <version>3.2.1</version>
       <version>2.0</version>
       <version>3.0</version>
       <version>3.1</version>
-   </software>
-   <software relevance="6">
+   </skill>
+   <skill relevance="5" href="https://unece.org/trade/uncefact">
+      <name>EDI</name>
+      <category>EDI</category>
+      <category>serialization-format</category>
+   </skill>
+   <skill relevance="6">
       <name>ember.js</name>
       <category>framework</category>
       <category>web</category>
@@ -412,63 +440,63 @@
       <version>1.8</version>
       <version>1.9</version>
       <version>2.10</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>EOF</name>
       <category>framework</category>
       <manufacturer>NeXT</manufacturer>
       <version>1</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>equinox</name>
       <manufacturer>Eclipse</manufacturer>
       <version>3.2.1</version>
       <version>3.2.2</version>
       <version>3.2</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Escala PL3200R</name>
       <category>hardware</category>
       <manufacturer>Bull</manufacturer>
-   </software>
-   <software relevance="7" href="https://expressjs.com">
+   </skill>
+   <skill relevance="7" href="https://expressjs.com">
       <name>express</name>
       <category>framework</category>
       <category>javascript</category>
       <category>web</category>
       <version>4.18.2</version>
-   </software>
-   <software relevance="9" href="https://fedoraproject.org">
+   </skill>
+   <skill relevance="9" href="https://fedoraproject.org">
       <name>Fedora Core</name>
       <category>distribution</category>
       <category>linux</category>
       <manufacturer>Red Hat</manufacturer>
       <version>2</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>FLAM</name>
       <category>compression</category>
       <category>tool</category>
-   </software>
-   <software relevance="7" href="https://xmlgraphics.apache.org/fop">
+   </skill>
+   <skill relevance="7" href="https://xmlgraphics.apache.org/fop">
       <name>fop</name>
       <category>xml</category>
       <manufacturer>Apache Foundation</manufacturer>
       <version>0.2</version>
       <version>2.8</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>forrest</name>
       <manufacturer>Apache Foundation</manufacturer>
-   </software>
-   <software relevance="1">
+   </skill>
+   <skill relevance="1">
       <name>foxtrot</name>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Framemaker</name>
       <manufacturer>Adobe</manufacturer>
-   </software>
-   <software relevance="9" href="https://git-scm.com">
+   </skill>
+   <skill relevance="9" href="https://git-scm.com">
       <name>git</name>
       <category>version control</category>
       <version>2.39.2</version>
@@ -480,8 +508,8 @@
       <version>1.8</version>
       <version>2.0</version>
       <version>2.1</version>
-   </software>
-   <software relevance="8" href="https://about.gitea.com">
+   </skill>
+   <skill relevance="8" href="https://about.gitea.com">
       <name>gitea</name>
       <category>artifact store</category>
       <category>version control</category>
@@ -490,35 +518,35 @@
       <version>1.21.0</version>
       <version>1.21.1</version>
       <version>1.21.6</version>
-   </software>
-   <software relevance="8" href="https://github.com">
+   </skill>
+   <skill relevance="8" href="https://github.com">
       <name>github</name>
       <category>artifact store</category>
       <category>version control</category>
       <manufacturer>Microsoft</manufacturer>
-   </software>
-   <software relevance="7" href="https://cli.github.com">
+   </skill>
+   <skill relevance="7" href="https://cli.github.com">
       <name>github-cli</name>
       <name>gh</name>
       <manufacturer>Microsoft</manufacturer>
       <version>1.2.0</version>
       <version>1.0</version>
       <version>1.1</version>
-   </software>
-   <software relevance="8" href="https://about.gitlab.com">
+   </skill>
+   <skill relevance="8" href="https://about.gitlab.com">
       <name>gitlab</name>
       <category>version control</category>
       <manufacturer>GitLab</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>glazedlists</name>
       <version>0.95</version>
-   </software>
-   <software relevance="7" href="https://go.dev">
+   </skill>
+   <skill relevance="7" href="https://go.dev">
       <name>go</name>
       <category>language</category>
-   </software>
-   <software relevance="8" href="https://gradle.org">
+   </skill>
+   <skill relevance="8" href="https://gradle.org">
       <name>gradle</name>
       <category>build</category>
       <category>java</category>
@@ -527,39 +555,39 @@
       <version>1.2</version>
       <version>2.4</version>
       <version>2.6</version>
-   </software>
-   <software relevance="8" href="https://www.graphviz.org">
+   </skill>
+   <skill relevance="8" href="https://www.graphviz.org">
       <name>graphviz</name>
       <category>tool</category>
       <version>7.0.0</version>
       <version>9.0.0</version>
       <version>10.0.0</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>greenkeeper</name>
       <category>ci</category>
-   </software>
-   <software relevance="5" href="https://www.vmware.com">
+   </skill>
+   <skill relevance="5" href="https://www.vmware.com">
       <name>gsx</name>
       <manufacturer>vmware</manufacturer>
       <version>2</version>
-   </software>
-   <software relevance="6">
+   </skill>
+   <skill relevance="6">
       <name>gulp.js</name>
       <category>build</category>
       <category>javascript</category>
       <version>4.0.0</version>
       <version>3.91</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>H70</name>
       <category>hardware</category>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="1">
+   </skill>
+   <skill relevance="1">
       <name>hardware</name>
-   </software>
-   <software relevance="8" href="https://helm.sh">
+   </skill>
+   <skill relevance="8" href="https://helm.sh">
       <name>helm</name>
       <category>cloud</category>
       <manufacturer>CNCF</manufacturer>
@@ -570,31 +598,31 @@
       <version>3.14.0</version>
       <version>3.14.1</version>
       <version>2</version>
-   </software>
-   <software relevance="9" href="https://hibernate.org">
+   </skill>
+   <skill relevance="9" href="https://hibernate.org">
       <name>hibernate</name>
       <category>java</category>
       <version>2</version>
       <version>3.05</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>HMC</name>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>HP-UX</name>
       <category>os</category>
       <manufacturer>HP</manufacturer>
       <version>9</version>
       <version>11</version>
-   </software>
-   <software relevance="5" href="https://httpd.apache.org">
+   </skill>
+   <skill relevance="5" href="https://httpd.apache.org">
       <name>httpd</name>
       <manufacturer>Apache Foundation</manufacturer>
       <version>1.3</version>
       <version>2.2</version>
-   </software>
-   <software skill="expert" relevance="8" href="https://www.ibm.com/products/mq">
+   </skill>
+   <skill skill="expert" relevance="8" href="https://www.ibm.com/products/mq">
       <name>IBM MQ</name>
       <category>message broker</category>
       <category>messaging</category>
@@ -607,42 +635,48 @@
       <version>7.1</version>
       <version>8.0</version>
       <version>9.0</version>
-   </software>
-   <software relevance="3" href="https://www.iis.net">
+   </skill>
+   <skill relevance="5">
+      <name>IDOC</name>
+      <category>IDOC</category>
+      <category>SAP</category>
+      <category>serialization-format</category>
+   </skill>
+   <skill relevance="3" href="https://www.iis.net">
       <name>IIS</name>
       <category>web</category>
       <manufacturer>Microsoft</manufacturer>
-   </software>
-   <software relevance="3" href="https://www.cyrusimap.org">
+   </skill>
+   <skill relevance="3" href="https://www.cyrusimap.org">
       <name>imapd</name>
       <category>mda</category>
       <manufacturer>cyrus</manufacturer>
-   </software>
-   <software relevance="8">
+   </skill>
+   <skill relevance="8">
       <name>IMG</name>
       <category>iam</category>
       <manufacturer>RSA</manufacturer>
       <version>6.8</version>
       <version>7.0</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>InstallShield</name>
       <manufacturer>InstallShield</manufacturer>
-   </software>
-   <software relevance="5" href="https://www.jetbrains.com/idea/">
+   </skill>
+   <skill relevance="5" href="https://www.jetbrains.com/idea/">
       <name>IntelliJ IDEA</name>
       <category>ide</category>
       <category>java</category>
       <manufacturer>jetbrains</manufacturer>
       <version>5.0</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>io.js</name>
       <category>javascript</category>
       <version>1.0.4</version>
       <version>2.4.0</version>
-   </software>
-   <software relevance="6" href="https://www.apple.com/de/ios">
+   </skill>
+   <skill relevance="6" href="https://www.apple.com/de/ios">
       <name>ios</name>
       <category>os</category>
       <manufacturer>Apple Inc.</manufacturer>
@@ -656,13 +690,13 @@
       <version>11.0</version>
       <version>12.0</version>
       <version>13.0</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>iPlanet LDAP</name>
       <manufacturer>SUN</manufacturer>
       <version>4</version>
-   </software>
-   <software skill="expert" relevance="9" href="https://www.java.com">
+   </skill>
+   <skill skill="expert" relevance="9" href="https://www.java.com">
       <name>java</name>
       <category>language</category>
       <manufacturer>Oracle</manufacturer>
@@ -673,8 +707,8 @@
       <version>1.5</version>
       <version>1.6</version>
       <version>1.8</version>
-   </software>
-   <software skill="expert" relevance="9" href="https://ecma-international.org/publications-and-standards/standards/ecma-262">
+   </skill>
+   <skill skill="expert" relevance="9" href="https://ecma-international.org/publications-and-standards/standards/ecma-262">
       <name>javascript</name>
       <name>ecmascript</name>
       <category>language</category>
@@ -684,122 +718,122 @@
       <version>ES2020</version>
       <version>ES2022</version>
       <version>ES2023</version>
-   </software>
-   <software relevance="7" href="https://www.redhat.com/de/technologies/jboss-middleware/application-platform">
+   </skill>
+   <skill relevance="7" href="https://www.redhat.com/de/technologies/jboss-middleware/application-platform">
       <name>jboss</name>
       <category>j2ee</category>
       <category>java</category>
       <category>middleware</category>
       <manufacturer>Red Hat</manufacturer>
       <version>3.2.7</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>jce</name>
       <category>java</category>
       <manufacturer>IAIK</manufacturer>
       <version>3.0.3</version>
-   </software>
-   <software relevance="7" href="https://www.jenkins.io">
+   </skill>
+   <skill relevance="7" href="https://www.jenkins.io">
       <name>jenkins</name>
       <category>ci</category>
       <manufacturer/>
       <version/>
-   </software>
-   <software relevance="7" href="https://www.atlassian.com/de/software/jira">
+   </skill>
+   <skill relevance="7" href="https://www.atlassian.com/de/software/jira">
       <name>Jira</name>
       <category>testing</category>
       <manufacturer>Atlassian</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>jk2</name>
       <manufacturer>Apache Foundation</manufacturer>
-   </software>
-   <software skill="expert" relevance="8" href="https://www.jcp.org/en/jsr/detail?id=914">
+   </skill>
+   <skill skill="expert" relevance="8" href="https://www.jcp.org/en/jsr/detail?id=914">
       <name>JMS</name>
       <category>java</category>
       <category>messaging</category>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>JNDI</name>
       <category>java</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="7" href="https://jqlang.github.io/jq">
+   </skill>
+   <skill relevance="7" href="https://jqlang.github.io/jq">
       <name>jq</name>
       <category>json</category>
       <category>tool</category>
       <version>1.5</version>
       <version>1.7</version>
-   </software>
-   <software relevance="9" href="https://www.json.org">
+   </skill>
+   <skill relevance="9" href="https://www.json.org">
       <name>json</name>
       <category>json</category>
       <category>serialization-format</category>
-   </software>
-   <software relevance="7" href="https://koajs.com">
+   </skill>
+   <skill relevance="7" href="https://koajs.com">
       <name>koa</name>
       <category>framework</category>
       <category>web</category>
       <version>2.13.0</version>
       <version>2.14.0</version>
       <version>2.15.0</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>ksar</name>
       <category>performance analyse</category>
       <version>3</version>
       <version>4.0</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>LD 4600</name>
       <category>hardware</category>
       <manufacturer>CISCO</manufacturer>
-   </software>
-   <software relevance="7">
+   </skill>
+   <skill relevance="7">
       <name>ldap server</name>
       <manufacturer>Netscape</manufacturer>
       <manufacturer>SUN/ONE</manufacturer>
       <version>4</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>lex</name>
       <category>parser</category>
       <category>tool</category>
-   </software>
-   <software relevance="9">
+   </skill>
+   <skill relevance="9">
       <name>Linux</name>
       <category>os</category>
       <version>6.0</version>
       <version>6.1</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>LocalDirector 400</name>
       <category>hardware</category>
       <manufacturer>CISCO</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>LPAR</name>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>luntbuild</name>
       <category>ci</category>
       <version>1.2.2</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>M80</name>
       <category>hardware</category>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="7" href="https://pubs.opengroup.org/onlinepubs/9699919799/utilities">
+   </skill>
+   <skill relevance="7" href="https://pubs.opengroup.org/onlinepubs/9699919799/utilities">
       <name>make</name>
       <category>build</category>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Marathon</name>
       <version>0.9</version>
-   </software>
-   <software relevance="8" href="https://maven.apache.org">
+   </skill>
+   <skill relevance="8" href="https://maven.apache.org">
       <name>maven</name>
       <category>build</category>
       <category>java</category>
@@ -810,87 +844,87 @@
       <version>3.6.3</version>
       <version>3.0.4</version>
       <version>3.8.8</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>MINT</name>
       <manufacturer>SunGard</manufacturer>
       <version>7.6</version>
       <version>7.8</version>
-   </software>
-   <software relevance="7" href="https://github.com/systemd/mkosi">
+   </skill>
+   <skill relevance="7" href="https://github.com/systemd/mkosi">
       <name>mkosi</name>
       <category>tool</category>
       <version>14-3</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Motif</name>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>MVS/SNA</name>
       <category>messaging</category>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>MX-Rates</name>
       <category>application</category>
       <manufacturer>Murex</manufacturer>
-   </software>
-   <software relevance="6" href="https://www.mysql.com">
+   </skill>
+   <skill relevance="6" href="https://www.mysql.com">
       <name>mysql</name>
       <category>database</category>
       <version>5.0</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>NetBackup</name>
       <category>backup</category>
       <manufacturer>Veritas</manufacturer>
-   </software>
-   <software relevance="3" href="https://www.netlify.com">
+   </skill>
+   <skill relevance="3" href="https://www.netlify.com">
       <name>netlify</name>
       <category>cloud</category>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Netra T1</name>
       <category>hardware</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>NetWare</name>
       <category>os</category>
       <manufacturer>NOVELL</manufacturer>
       <version>3</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>NeXTCube</name>
       <category>hardware</category>
       <manufacturer>NeXT</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>NeXTStation</name>
       <category>hardware</category>
       <manufacturer>NeXT</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>NeXTSTEP</name>
       <category>os</category>
       <manufacturer>NeXT</manufacturer>
       <version>2</version>
       <version>3</version>
-   </software>
-   <software relevance="6" href="https://www.sonatype.com/products/sonatype-nexus-repository">
+   </skill>
+   <skill relevance="6" href="https://www.sonatype.com/products/sonatype-nexus-repository">
       <name>nexus</name>
       <category>artifact store</category>
       <manufacturer>Sonatype</manufacturer>
-   </software>
-   <software relevance="7" href="https://www.nginx.com">
+   </skill>
+   <skill relevance="7" href="https://www.nginx.com">
       <name>nginx</name>
       <category>middleware</category>
       <category>web</category>
       <version>1.25.2</version>
       <version>1.25.3</version>
       <version>1.25.4</version>
-   </software>
-   <software relevance="9" href="https://nodejs.org">
+   </skill>
+   <skill relevance="9" href="https://nodejs.org">
       <name>Node.js</name>
       <manufacturer>Linux Foundation</manufacturer>
       <version>20.9.0</version>
@@ -918,8 +952,8 @@
       <version>18.0</version>
       <version>18</version>
       <version>20.0</version>
-   </software>
-   <software relevance="7" href="https://www.npmjs.com">
+   </skill>
+   <skill relevance="7" href="https://www.npmjs.com">
       <name>npm</name>
       <category>javascript</category>
       <version>5</version>
@@ -927,36 +961,36 @@
       <version>8.0</version>
       <version>9.0</version>
       <version>10.0</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>nShield</name>
       <category>hardware</category>
       <manufacturer>nCipher</manufacturer>
-   </software>
-   <software relevance="7" href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">
+   </skill>
+   <skill relevance="7" href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">
       <name>Objective-C</name>
       <category>language</category>
-   </software>
-   <software relevance="8" href="https://www.openapis.org">
+   </skill>
+   <skill relevance="8" href="https://www.openapis.org">
       <name>openapi</name>
       <name>swagger</name>
       <category>api</category>
       <version>2.0</version>
       <version>3.0</version>
       <version>3.1</version>
-   </software>
-   <software relevance="7" href="https://www.openldap.org">
+   </skill>
+   <skill relevance="7" href="https://www.openldap.org">
       <name>openldap</name>
       <category>iam</category>
       <version>2.6.6</version>
       <version>2.0</version>
-   </software>
-   <software relevance="7" href="https://www.redhat.com/en/technologies/cloud-computing/openshift">
+   </skill>
+   <skill relevance="7" href="https://www.redhat.com/en/technologies/cloud-computing/openshift">
       <name>openshift</name>
       <manufacturer>Red Hat</manufacturer>
       <version>4</version>
-   </software>
-   <software relevance="6" href="https://www.oracle.com/database">
+   </skill>
+   <skill relevance="6" href="https://www.oracle.com/database">
       <name>Oracle RDBMS</name>
       <category>database</category>
       <manufacturer>Oracle</manufacturer>
@@ -973,19 +1007,19 @@
       <version>11</version>
       <version>11.1</version>
       <version>12.0</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>oscar</name>
       <category>java</category>
       <version>1.0.1</version>
       <version>1.0.3</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>osgi</name>
       <category>java</category>
       <version>R3</version>
-   </software>
-   <software relevance="8" href="https://www.apple.com/de/macos">
+   </skill>
+   <skill relevance="8" href="https://www.apple.com/de/macos">
       <name>osx</name>
       <name>macos</name>
       <category>os</category>
@@ -995,13 +1029,12 @@
       <version>13.5</version>
       <version>14.1</version>
       <version>14.2</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>PC</name>
       <category>hardware</category>
-      <manufacturer>Diverse</manufacturer>
-   </software>
-   <software skill="expert" relevance="8" href="https://www.perl.org">
+   </skill>
+   <skill skill="expert" relevance="8" href="https://www.perl.org">
       <name>perl</name>
       <category>language</category>
       <version>4</version>
@@ -1010,22 +1043,22 @@
       <version>5.38</version>
       <version>5.6</version>
       <version>5.8</version>
-   </software>
-   <software relevance="2" href="http://www.perltk.de/tk_widgets">
+   </skill>
+   <skill relevance="2" href="http://www.perltk.de/tk_widgets">
       <name>Perl::Tk</name>
       <category>perl</category>
       <version>8.4</version>
-   </software>
-   <software relevance="3" href="https://www.php.net">
+   </skill>
+   <skill relevance="3" href="https://www.php.net">
       <name>php</name>
       <category>language</category>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>PIUSS-O</name>
       <category>application</category>
       <manufacturer>PIUSS</manufacturer>
-   </software>
-   <software relevance="8" href="https://podman.io">
+   </skill>
+   <skill relevance="8" href="https://podman.io">
       <name>podman</name>
       <category>container</category>
       <version>1.6.0</version>
@@ -1043,78 +1076,73 @@
       <version>4.8.3</version>
       <version>4.9.1</version>
       <version>4.9.3</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Poseidon</name>
       <manufacturer>Gentleware</manufacturer>
-   </software>
-   <software relevance="7" href="https://postcss.org">
+   </skill>
+   <skill relevance="7" href="https://postcss.org">
       <name>postcss</name>
       <category>tool</category>
       <category>web</category>
       <version>7.0.27</version>
       <version>8.4</version>
-   </software>
-   <software relevance="6" href="https://www.postfix.org">
+   </skill>
+   <skill relevance="6" href="https://www.postfix.org">
       <name>postfix</name>
       <category>mda</category>
       <version>2</version>
-   </software>
-   <software relevance="6" href="https://www.postgresql.org">
+   </skill>
+   <skill relevance="6" href="https://www.postgresql.org">
       <name>postgres</name>
       <category>database</category>
       <version>12.4</version>
       <version>13.0</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>PowerBook</name>
       <category>hardware</category>
       <manufacturer>Apple</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>proguard</name>
       <version>0.95</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Proliant 1850R</name>
       <category>hardware</category>
       <manufacturer>Compaq</manufacturer>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>PXE</name>
-   </software>
-   <software relevance="7" href="https://www.python.org">
+   </skill>
+   <skill relevance="7" href="https://www.python.org">
       <name>python</name>
       <category>language</category>
       <version>2</version>
       <version>2.6</version>
       <version>2.7</version>
-   </software>
-   <software relevance="2">
-      <name>Rackmounted PC</name>
-      <category>hardware</category>
-      <manufacturer>diverse</manufacturer>
-   </software>
-   <software relevance="4" href="https://rubyonrails.org">
+   </skill>
+   <skill relevance="4" href="https://rubyonrails.org">
       <name>rails</name>
       <category>web</category>
       <version>2.0</version>
-   </software>
-   <software relevance="8" href="https://redis.io">
+   </skill>
+   <skill relevance="8" href="https://redis.io">
       <name>redis</name>
       <category>message broker</category>
       <version>5.0</version>
       <version>6.0</version>
-   </software>
-   <software relevance="7" href="https://relaxng.org">
+   </skill>
+   <skill relevance="7" href="https://relaxng.org">
       <name>Relax NG</name>
       <name>rng</name>
       <category>schema</category>
       <category>xml</category>
       <manufacturer>oasis</manufacturer>
       <version>1.0</version>
-   </software>
-   <software relevance="9" href="https://www.redhat.com/de/technologies/linux-platforms/enterprise-linux">
+   </skill>
+   <skill relevance="9" href="https://www.redhat.com/de/technologies/linux-platforms/enterprise-linux">
       <name>RHEL</name>
       <name>Enterprise-Linux</name>
       <category>linux</category>
@@ -1126,80 +1154,80 @@
       <version>8.0</version>
       <version>8.1</version>
       <version>9.0</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>RM6</name>
       <category>storage</category>
       <manufacturer>SUN</manufacturer>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>rnc</name>
       <category>schema</category>
       <category>xml</category>
-   </software>
-   <software relevance="7" href="https://rollupjs.org">
+   </skill>
+   <skill relevance="7" href="https://rollupjs.org">
       <name>rollup</name>
       <category>build</category>
       <category>tool</category>
       <version>4.12.0</version>
       <version>1.0</version>
       <version>2.0</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>RPC::Simple</name>
       <version>0.3</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>rrdtool</name>
       <version>1.1</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>RS/6000 320H</name>
       <category>hardware</category>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>RS/6000 B50</name>
       <category>hardware</category>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>RS/6000 H70</name>
       <category>hardware</category>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>RS/6000 M80</name>
       <category>hardware</category>
       <manufacturer>IBM</manufacturer>
-   </software>
-   <software relevance="6" href="https://rsync.samba.org">
+   </skill>
+   <skill relevance="6" href="https://rsync.samba.org">
       <name>rsync</name>
       <version>2.6</version>
-   </software>
-   <software relevance="3" href="https://www.ruby-lang.org">
+   </skill>
+   <skill relevance="3" href="https://www.ruby-lang.org">
       <name>ruby</name>
       <category>language</category>
       <version>1.8</version>
       <version>1.9</version>
-   </software>
-   <software relevance="9" href="https://www.rust-lang.org">
+   </skill>
+   <skill relevance="9" href="https://www.rust-lang.org">
       <name>rust</name>
       <category>language</category>
       <version>1.72.0</version>
       <version>1.47</version>
       <version>1.48</version>
       <version>1.50</version>
-   </software>
-   <software relevance="8">
+   </skill>
+   <skill relevance="8">
       <name>rustc</name>
       <category>build</category>
       <category>rust</category>
       <version>1.47</version>
       <version>1.48</version>
       <version>1.50</version>
-   </software>
-   <software relevance="9" href="https://www.saxonica.com/products/products.xml">
+   </skill>
+   <skill relevance="9" href="https://www.saxonica.com/products/products.xml">
       <name>saxon</name>
       <name>xslt3</name>
       <category>tool</category>
@@ -1215,68 +1243,68 @@
       <version>9.3</version>
       <version>9.4</version>
       <version>12.3</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Scanner F-3095</name>
       <category>hardware</category>
       <manufacturer>Fijutsu</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>sccs</name>
       <category>version control</category>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>schematron</name>
       <category>xml</category>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>SDS</name>
       <manufacturer>SUN</manufacturer>
       <version>6</version>
-   </software>
-   <software relevance="6" href="https://www.sendmail.org">
+   </skill>
+   <skill relevance="6" href="https://www.sendmail.org">
       <name>sendmail</name>
       <category>mda</category>
       <version>8</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>serialization-format</name>
       <category>serialization-format</category>
-   </software>
-   <software relevance="6">
+   </skill>
+   <skill relevance="6">
       <name>server</name>
       <manufacturer>VMware</manufacturer>
       <version>1.0.3</version>
-   </software>
-   <software relevance="4" href="https://www.servicenow.com">
+   </skill>
+   <skill relevance="4" href="https://www.servicenow.com">
       <name>ServiceNow</name>
       <version>Kingston</version>
       <version>London</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>SNA</name>
       <manufacturer>HP</manufacturer>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>snowpack</name>
       <version>2.15.1</version>
       <version>2.17.0</version>
-   </software>
-   <software relevance="7" href="https://snyk.io">
+   </skill>
+   <skill relevance="7" href="https://snyk.io">
       <name>Snyk</name>
       <category>ci</category>
       <category>security</category>
-   </software>
-   <software relevance="6" href="https://www.w3.org/TR/2000/NOTE-SOAP-20000508/">
+   </skill>
+   <skill relevance="6" href="https://www.w3.org/TR/2000/NOTE-SOAP-20000508/">
       <name>SOAP</name>
       <category>webservice</category>
       <category>xml</category>
       <version>1.1</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>software</name>
-   </software>
-   <software relevance="4" href="https://www.oracle.com/solaris">
+   </skill>
+   <skill relevance="4" href="https://www.oracle.com/solaris">
       <name>Solaris</name>
       <category>os</category>
       <manufacturer>Oracle</manufacturer>
@@ -1285,39 +1313,39 @@
       <version>8</version>
       <version>9</version>
       <version>10</version>
-   </software>
-   <software relevance="7" href="https://spring.io/projects/spring-boot">
+   </skill>
+   <skill relevance="7" href="https://spring.io/projects/spring-boot">
       <name>Spring Boot</name>
       <category>java</category>
       <version>2.1</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>SQL-Server</name>
       <category>database</category>
       <manufacturer>Sybase</manufacturer>
       <version>4</version>
       <version>10</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>SQLBASE</name>
       <category>database</category>
       <manufacturer>Gupta</manufacturer>
       <manufacturer>Sybase</manufacturer>
       <version>4</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>SQLServer</name>
       <category>database</category>
       <manufacturer>Centura</manufacturer>
       <version>7</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>StarTeam</name>
       <category>version control</category>
       <manufacturer>Borland</manufacturer>
       <version>5.2</version>
-   </software>
-   <software relevance="5" href="https://subversion.apache.org">
+   </skill>
+   <skill relevance="5" href="https://subversion.apache.org">
       <name>subversion</name>
       <category>version control</category>
       <version>1.1.4</version>
@@ -1329,15 +1357,15 @@
       <version>1.6</version>
       <version>1.7</version>
       <version>1.8</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>SunOS</name>
       <category>os</category>
       <manufacturer>SUN</manufacturer>
       <version>2.6</version>
       <version>3.5</version>
-   </software>
-   <software relevance="5" href="https://www.suse.com">
+   </skill>
+   <skill relevance="5" href="https://www.suse.com">
       <name>SUSE Linux Enterprise Server</name>
       <manufacturer>Suse</manufacturer>
       <version>7.3</version>
@@ -1346,8 +1374,8 @@
       <version>9.2</version>
       <version>10.3</version>
       <version>11</version>
-   </software>
-   <software relevance="8" href="https://svelte.dev">
+   </skill>
+   <skill relevance="8" href="https://svelte.dev">
       <name>svelte</name>
       <category>framework</category>
       <category>web</category>
@@ -1360,16 +1388,16 @@
       <version>3.54</version>
       <version>3.55</version>
       <version>4.0</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>svnant</name>
       <category>version control</category>
-   </software>
-   <software relevance="9" href="https://www.swift.org">
+   </skill>
+   <skill relevance="9" href="https://www.swift.org">
       <name>swift</name>
       <category>language</category>
-   </software>
-   <software relevance="9" href="https://systemd.io">
+   </skill>
+   <skill relevance="9" href="https://systemd.io">
       <name>systemd</name>
       <version>244.1</version>
       <version>244.2</version>
@@ -1378,42 +1406,42 @@
       <version>246.5</version>
       <version>247.4</version>
       <version>255.3</version>
-   </software>
-   <software relevance="7" href="https://tailwindcss.com">
+   </skill>
+   <skill relevance="7" href="https://tailwindcss.com">
       <name>tailwindcss</name>
       <category>build</category>
       <category>web</category>
       <version>1.2.0</version>
       <version>1.3.0</version>
       <version>1.9.6</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>TCL/TK</name>
-   </software>
-   <software relevance="7" href="https://www.jetbrains.com/teamcity">
+   </skill>
+   <skill relevance="7" href="https://www.jetbrains.com/teamcity">
       <name>TeamCity</name>
       <category>ci</category>
       <manufacturer>JetBrains</manufacturer>
-   </software>
-   <software relevance="6" href="https://terser.org">
+   </skill>
+   <skill relevance="6" href="https://terser.org">
       <name>terser</name>
       <category>javascript</category>
       <version>4.7.0</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>Test Director</name>
       <category>testing</category>
       <manufacturer>Mercury</manufacturer>
       <version>7.2</version>
       <version>7.6</version>
-   </software>
-   <software relevance="7" href="https://testcafe.io">
+   </skill>
+   <skill relevance="7" href="https://testcafe.io">
       <name>testcafe</name>
       <category>testing</category>
       <version>1.9.4</version>
       <version>1.10.1</version>
-   </software>
-   <software relevance="8" href="https://tomcat.apache.org">
+   </skill>
+   <skill relevance="8" href="https://tomcat.apache.org">
       <name>tomcat</name>
       <category>java</category>
       <category>middleware</category>
@@ -1424,21 +1452,21 @@
       <version>5</version>
       <version>5.5</version>
       <version>6.0</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>tool</name>
       <category>software</category>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>tortoise svn</name>
       <category>version control</category>
       <version>1.2.0</version>
-   </software>
-   <software relevance="5" href="https://tree-sitter.github.io/tree-sitter/">
+   </skill>
+   <skill relevance="5" href="https://tree-sitter.github.io/tree-sitter/">
       <name>tree-sitter</name>
       <version>0.16</version>
-   </software>
-   <software relevance="6" href="https://www.ibm.com/docs/en/workload-automation">
+   </skill>
+   <skill relevance="6" href="https://www.ibm.com/docs/en/workload-automation">
       <name>TWS</name>
       <name>Tivoli Workload Scheduler</name>
       <name>Maestro</name>
@@ -1446,8 +1474,8 @@
       <category>scheduler</category>
       <manufacturer>IBM</manufacturer>
       <version>9.1</version>
-   </software>
-   <software relevance="9" href="https://www.typescriptlang.org">
+   </skill>
+   <skill relevance="9" href="https://www.typescriptlang.org">
       <name>typescript</name>
       <category>language</category>
       <version>3.9.0</version>
@@ -1455,40 +1483,40 @@
       <version>1.2.0</version>
       <version>5.2.2</version>
       <version>5.3.2</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Ultrix</name>
       <category>os</category>
       <manufacturer>Digital</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Unicenter</name>
       <manufacturer>CA</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>UNIX</name>
       <category>os</category>
       <manufacturer>AT&amp;T</manufacturer>
       <version>V3</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Unix ODT</name>
       <category>os</category>
       <manufacturer>SCO</manufacturer>
       <version>1.0</version>
-   </software>
-   <software relevance="6" href="https://verdaccio.org">
+   </skill>
+   <skill relevance="6" href="https://verdaccio.org">
       <name>verdaccio</name>
       <category>artifact store</category>
       <version>4.6.2</version>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Visual Caffe</name>
       <category>ide</category>
       <category>java</category>
       <manufacturer>Symantec</manufacturer>
-   </software>
-   <software skill="expert" relevance="9" href="https://vitejs.dev">
+   </skill>
+   <skill skill="expert" relevance="9" href="https://vitejs.dev">
       <name>vite</name>
       <category>tool</category>
       <category>web</category>
@@ -1503,18 +1531,18 @@
       <version>4.4</version>
       <version>4.5</version>
       <version>5.0</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>VMS</name>
       <category>os</category>
       <manufacturer>Digital</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Volume Manager</name>
       <category>storage</category>
       <manufacturer>Veritas</manufacturer>
-   </software>
-   <software relevance="9" href="https://code.visualstudio.com">
+   </skill>
+   <skill relevance="9" href="https://code.visualstudio.com">
       <name>vscode</name>
       <name>Visual Studio Code</name>
       <category>ide</category>
@@ -1526,21 +1554,21 @@
       <version>1.85.0</version>
       <version>1.86.2</version>
       <version>1.28</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>VxFS</name>
       <category>storage</category>
       <manufacturer>Veritas</manufacturer>
-   </software>
-   <software relevance="7" href="https://webassembly.org">
+   </skill>
+   <skill relevance="7" href="https://webassembly.org">
       <name>wasm</name>
       <version>1</version>
-   </software>
-   <software relevance="5" href="https://webix.com">
+   </skill>
+   <skill relevance="5" href="https://webix.com">
       <name>webix</name>
       <category>web</category>
-   </software>
-   <software skill="expert" relevance="8" href="https://www.oracle.com/de/java/weblogic">
+   </skill>
+   <skill skill="expert" relevance="8" href="https://www.oracle.com/de/java/weblogic">
       <name>weblogic</name>
       <category>j2ee</category>
       <category>java</category>
@@ -1554,66 +1582,66 @@
       <version>10</version>
       <version>11</version>
       <version>12</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>webserver</name>
       <manufacturer>Apache Foundation</manufacturer>
       <manufacturer>SUN/ONE</manufacturer>
       <version>1.2</version>
       <version>2.0</version>
       <version>5</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Websphere</name>
       <category>java</category>
       <manufacturer>IBM</manufacturer>
       <version>6.0</version>
-   </software>
-   <software relevance="5" href="https://wicket.apache.org">
+   </skill>
+   <skill relevance="5" href="https://wicket.apache.org">
       <name>wicket</name>
       <category>java</category>
       <version>1.2.4</version>
       <version>1.2</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Windows 2000</name>
       <category>os</category>
       <manufacturer>Microsoft</manufacturer>
-   </software>
-   <software relevance="2">
+   </skill>
+   <skill relevance="2">
       <name>Windows 95</name>
       <category>os</category>
       <manufacturer>Microsoft</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Windows NT</name>
       <category>os</category>
       <manufacturer>Microsoft</manufacturer>
       <version>3.51</version>
       <version>4</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Windows Server</name>
       <category>os</category>
       <manufacturer>Microsoft</manufacturer>
       <version>2003</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Windows XP</name>
       <category>os</category>
       <manufacturer>Microsoft</manufacturer>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>wix</name>
       <manufacturer>Microsoft</manufacturer>
       <version>2.0.3</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>Workstation</name>
       <manufacturer>vmware</manufacturer>
       <version>4.5</version>
-   </software>
-   <software relevance="7" href="https://developers.cloudflare.com/workers/wrangler">
+   </skill>
+   <skill relevance="7" href="https://developers.cloudflare.com/workers/wrangler">
       <name>wrangler</name>
       <category>deploy</category>
       <category>tool</category>
@@ -1621,98 +1649,98 @@
       <version>3.23.0</version>
       <version>3.21</version>
       <version>3.4</version>
-   </software>
-   <software relevance="6">
+   </skill>
+   <skill relevance="6">
       <name>WSDL</name>
       <category>webservice</category>
       <category>xml</category>
       <version>1.1</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>X-Windows</name>
-   </software>
-   <software relevance="6">
+   </skill>
+   <skill relevance="6">
       <name>xcode</name>
       <category>ide</category>
       <manufacturer>Apple Inc.</manufacturer>
       <version>4.3</version>
       <version>4.4</version>
       <version>4.5</version>
-   </software>
-   <software relevance="4">
+   </skill>
+   <skill relevance="4">
       <name>xdoclet</name>
       <category>java</category>
       <version>1.2</version>
       <version>2.0</version>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>XETRA-GATE</name>
       <manufacturer>Deutsche Börse AG</manufacturer>
-   </software>
-   <software relevance="3">
+   </skill>
+   <skill relevance="3">
       <name>xhyve</name>
       <version>1f46a3</version>
-   </software>
-   <software relevance="7" href="http://www.xml.com">
+   </skill>
+   <skill relevance="7" href="http://www.xml.com">
       <name>xml</name>
       <category>serialization-format</category>
       <category>xml</category>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>xom</name>
       <category>java</category>
       <category>xml</category>
       <manufacturer>Harold, E.</manufacturer>
       <version>1.1</version>
-   </software>
-   <software relevance="8">
+   </skill>
+   <skill relevance="8">
       <name>xsd</name>
       <category>schema</category>
       <category>xml</category>
-   </software>
-   <software skill="expert" relevance="9" href="https://www.w3.org/Style/XSL/Overview-new.html">
+   </skill>
+   <skill skill="expert" relevance="9" href="https://www.w3.org/Style/XSL/Overview-new.html">
       <name>xslt</name>
       <category>language</category>
       <category>xml</category>
       <version>2.0</version>
       <version>3.0</version>
-   </software>
-   <software relevance="4" href="https://www.w3.org/TR/xmlschema11-1">
+   </skill>
+   <skill relevance="4" href="https://www.w3.org/TR/xmlschema11-1">
       <name>xstream</name>
       <category>java</category>
       <category>xml</category>
       <version>1.1</version>
-   </software>
-   <software relevance="3" href="https://www.xwiki.org">
+   </skill>
+   <skill relevance="3" href="https://www.xwiki.org">
       <name>xwiki</name>
       <version>0.9</version>
       <version>1.2</version>
       <version>1.3</version>
-   </software>
-   <software relevance="5">
+   </skill>
+   <skill relevance="5">
       <name>yacc</name>
       <category>parser</category>
-   </software>
-   <software relevance="9" href="https://yaml.org">
+   </skill>
+   <skill relevance="9" href="https://yaml.org">
       <name>yaml</name>
       <category>serialization-format</category>
       <category>yaml</category>
-   </software>
-   <software relevance="7" href="https://yarnpkg.com">
+   </skill>
+   <skill relevance="7" href="https://yarnpkg.com">
       <name>yarn</name>
       <category>javascript</category>
       <version>1.21</version>
       <version>1.22</version>
-   </software>
-   <software relevance="9" href="https://ziglang.org">
+   </skill>
+   <skill relevance="9" href="https://ziglang.org">
       <name>zig</name>
       <category>language</category>
       <version>0.10.2</version>
       <version>0.11.0</version>
-   </software>
-   <software relevance="4" href="https://www.zsh.org">
+   </skill>
+   <skill relevance="4" href="https://www.zsh.org">
       <name>zsh</name>
       <category>language</category>
       <category>shell</category>
-   </software>
+   </skill>
 </knowledge>

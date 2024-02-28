@@ -25,7 +25,7 @@ await Promise.all(
             "node_modules/xslt3/xslt3.js",
             "-xsl:node_modules/resume-renderer/xslt/profile2html.xsl",
             "-s:profile.xml",
-            `knowledge=file:${process.cwd()}/knowledge.xml`,
+            `skills.url=file:${process.cwd()}/skills.xml`,
             `relevance=${relevance}`,
             `lang=${lang}`,
             `from_date=${from_date}`,
@@ -35,7 +35,7 @@ await Promise.all(
             "node_modules/xslt3/xslt3.js",
             "-xsl:node_modules/resume-renderer/xslt/profile2fo.xsl",
             "-s:profile.xml",
-            `knowledge=file:${process.cwd()}/knowledge.xml`,
+            `skills.url=file:${process.cwd()}/skills.xml`,
             `relevance=${relevance}`,
             `lang=${lang}`,
             `from_date=${from_date}`,
@@ -45,7 +45,7 @@ await Promise.all(
             "node_modules/xslt3/xslt3.js",
             "-xsl:node_modules/resume-renderer/xslt/profile2docx.xsl",
             "-s:profile.xml",
-            `knowledge=file:${process.cwd()}/knowledge.xml`,
+            `skills.url=file:${process.cwd()}/skills.xml`,
             `relevance=${relevance}`,
             `lang=${lang}`,
             `from_date=${from_date}`,
@@ -60,11 +60,9 @@ await Promise.all(
           `src/public/${base}.pdf`
         ]);
 
-        await efp(
-          "zip",
-          ["-r", `../../src/public/${base}.docx`, "."],
-          { cwd: bd }
-        );
+        await efp("zip", ["-r", `../../src/public/${base}.docx`, "."], {
+          cwd: bd
+        });
       })
     )
   )
@@ -99,10 +97,12 @@ export default defineConfig(async ({ command, mode }) => {
       rollupOptions: {
         input: {
           "src/index.html": "src/index.html",
-	  ...Object.fromEntries(
-            languages.map(l => [`src/${name}_${l}.html`, `src/${name}_${l}.html`])
+          ...Object.fromEntries(
+            languages.map(l => [
+              `src/${name}_${l}.html`,
+              `src/${name}_${l}.html`
+            ])
           )
-
         }
       },
       sourcemap: false

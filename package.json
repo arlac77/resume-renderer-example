@@ -21,20 +21,19 @@
     "start": "vite",
     "lint:css": "stylelint ./src/*.css",
     "lint": "npm run lint:css",
-    "lint:xml": "rnv schema/profile-1.0.rnc profile.xml",
-    "normalize-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/normalize-knowledge.xsl -s:profile.xml >knowledge-normalized.xml",
+    "lint:xml": "rnv node_modules/resume-renderer/schema/profile-1.0.rnc profile.xml",
     "preview": "vite preview",
-    "update-knowledge": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2knowledge.xsl -s:profile.xml >knowledge-new.xml"
+    "update-skills": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2skills.xsl skill.url=file:$(pwd)/skills.xml -s:profile.xml >skills-new.xml"
   },
   "dependencies": {
-    "playwright": "^1.41.2",
-    "resume-renderer": "^3.0.0"
+    "playwright": "^1.42.0",
+    "resume-renderer": "^4.0.0"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/release-notes-generator": "^12.1.0",
-    "@types/node": "^20.11.20",
+    "@types/node": "^20.11.22",
     "npm-pkgbuild": "^13.0.20",
     "semantic-release": "^23.0.2",
     "stylelint": "^16.2.1",
