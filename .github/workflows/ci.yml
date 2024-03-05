@@ -13,6 +13,10 @@ permissions:
 jobs:
   test-node:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version:
+          - 20.11.1
     steps:
       - uses: actions/checkout@v4.1.1
       - uses: actions/setup-node@v4.0.2
@@ -31,10 +35,6 @@ jobs:
           path-to-lcov: build/coverage/lcov.info
           parallel: true
         continue-on-error: true
-    strategy:
-      matrix:
-        node-version:
-          - 20.11.1
   release:
     needs:
       - test-node
