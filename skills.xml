@@ -42,7 +42,7 @@
    </skill>
    <skill relevance="4" href="https://gitea.com/gitea/act_runner">
       <name>act_runner</name>
-      <category>ci</category>
+      <category>CI</category>
       <version>0.2.5</version>
       <version>0.2.6</version>
    </skill>
@@ -59,6 +59,10 @@
       <name>agile</name>
       <category>methodology</category>
    </skill>
+   <skill relevance="8" href="https://www.scrum.org">
+      <name>scrum</name>
+      <category>methodology</category>
+   </skill>
    <skill relevance="5" href="https://www.ibm.com/de-de/products/aix">
       <name>AIX</name>
       <category>os</category>
@@ -71,8 +75,16 @@
       <version>5.3</version>
       <version>6.1</version>
    </skill>
+   <skill relevance="7" href="https://www.amqp.org">
+      <name>AMQP</name>
+      <category>messaging</category>
+      <category>protocol</category>
+   </skill>
    <skill relevance="8" href="https://www.ansible.com">
       <name>ansible</name>
+      <category>IaC</category>
+      <category>tool</category>
+      <manufacturer>Red Hat</manufacturer>
       <version>2.9.10</version>
       <version>2.9.11</version>
       <version>2</version>
@@ -104,12 +116,19 @@
       <name>Appkit</name>
       <manufacturer>NeXT</manufacturer>
    </skill>
-   <skill relevance="4">
+   <skill relevance="4" href="https://www.oracle.com/database/technologies/advanced-queuing.html">
       <name>AQ</name>
       <category>message broker</category>
       <category>messaging</category>
       <manufacturer>Oracle</manufacturer>
       <version>9.1</version>
+   </skill>
+   <skill relevance="5">
+      <name>AR-CryptoKit</name>
+      <category>cryptography</category>
+      <category>java</category>
+      <manufacturer>ARL</manufacturer>
+      <version>1.2</version>
    </skill>
    <skill relevance="7" href="https://archlinux.org">
       <name>archlinux</name>
@@ -157,7 +176,7 @@
       <category>backup</category>
       <version>1.3</version>
    </skill>
-   <skill relevance="4">
+   <skill relevance="6" href="https://www.gnu.org/software/bash/">
       <name>bash</name>
       <category>language</category>
       <category>shell</category>
@@ -181,6 +200,12 @@
       <category>cryptography</category>
       <category>java</category>
       <version>1.26</version>
+   </skill>
+   <skill relevance="8" href="https://buildah.io">
+      <name>buildah</name>
+      <category>build</category>
+      <category>container</category>
+      <version>1.34.1</version>
    </skill>
    <skill relevance="2">
       <name>Builder</name>
@@ -221,9 +246,14 @@
       <category>web</category>
       <version>1.8</version>
    </skill>
+   <skill relevance="8" href="https://martinfowler.com/articles/continuousIntegration.html">
+      <name>CI</name>
+      <name>continuous integration</name>
+      <category>methodology</category>
+   </skill>
    <skill relevance="5" href="https://circleci.com">
       <name>CircleCI</name>
-      <category>ci</category>
+      <category>CI</category>
    </skill>
    <skill relevance="3">
       <name>Cluster Server</name>
@@ -242,6 +272,10 @@
       <version>3.19.1</version>
       <version>3.28.0</version>
    </skill>
+   <skill relevance="8">
+      <name>code review</name>
+      <category>methodology</category>
+   </skill>
    <skill relevance="4">
       <name>commons-httpclient</name>
       <category>java</category>
@@ -256,6 +290,7 @@
    <skill relevance="7" href="https://github.com/senchalabs/connect">
       <name>connect</name>
       <category>framework</category>
+      <category>javascript</category>
       <category>web</category>
       <version>3.7.0</version>
    </skill>
@@ -269,20 +304,13 @@
    </skill>
    <skill relevance="5">
       <name>CruiseControl</name>
-      <category>ci</category>
+      <category>CI</category>
       <version>2.2</version>
    </skill>
    <skill relevance="5">
       <name>Crypto Safe</name>
       <category>hardware</category>
       <manufacturer>ARL</manufacturer>
-   </skill>
-   <skill relevance="5">
-      <name>CryptoKit</name>
-      <category>cryptography</category>
-      <category>java</category>
-      <manufacturer>ARL</manufacturer>
-      <version>1.2</version>
    </skill>
    <skill relevance="5" href="https://datatracker.ietf.org/doc/html/rfc4180">
       <name>CSV</name>
@@ -303,7 +331,7 @@
       <version>8.1.2</version>
    </skill>
    <skill relevance="4">
-      <name>cvs</name>
+      <name>CVS</name>
       <category>version control</category>
       <version>11</version>
    </skill>
@@ -322,7 +350,7 @@
    </skill>
    <skill relevance="6" href="https://github.com/dependabot">
       <name>dependabot</name>
-      <category>ci</category>
+      <category>CI</category>
       <manufacturer>Microsoft</manufacturer>
    </skill>
    <skill relevance="8">
@@ -360,6 +388,14 @@
       <version>25.0.3</version>
       <version>1.25.0</version>
       <version>1.13</version>
+   </skill>
+   <skill relevance="4">
+      <name>DTAUS</name>
+      <category>finance</category>
+   </skill>
+   <skill relevance="4">
+      <name>DTAZV</name>
+      <category>finance</category>
    </skill>
    <skill relevance="2">
       <name>E-250</name>
@@ -416,6 +452,7 @@
    </skill>
    <skill relevance="5" href="https://unece.org/trade/uncefact">
       <name>EDI</name>
+      <name>EDIFACT</name>
       <category>EDI</category>
       <category>serialization-format</category>
    </skill>
@@ -508,6 +545,7 @@
       <version>1.21.0</version>
       <version>1.21.1</version>
       <version>1.21.6</version>
+      <version>1.21.7</version>
    </skill>
    <skill relevance="8" href="https://github.com">
       <name>github</name>
@@ -527,6 +565,10 @@
       <name>gitlab</name>
       <category>version control</category>
       <manufacturer>GitLab</manufacturer>
+   </skill>
+   <skill relevance="8">
+      <name>GitOps</name>
+      <category>methodology</category>
    </skill>
    <skill relevance="3">
       <name>glazedlists</name>
@@ -555,7 +597,7 @@
    </skill>
    <skill relevance="5">
       <name>greenkeeper</name>
-      <category>ci</category>
+      <category>CI</category>
    </skill>
    <skill relevance="5" href="https://www.vmware.com">
       <name>gsx</name>
@@ -612,6 +654,11 @@
       <version>1.3</version>
       <version>2.2</version>
    </skill>
+   <skill relevance="8" href="http://agilemanifesto.org">
+      <name>IaC</name>
+      <name>Infrastructure as Code</name>
+      <category>methodology</category>
+   </skill>
    <skill level="expert" relevance="8" href="https://www.ibm.com/products/mq">
       <name>IBM MQ</name>
       <category>message broker</category>
@@ -636,6 +683,11 @@
       <name>IIS</name>
       <category>web</category>
       <manufacturer>Microsoft</manufacturer>
+   </skill>
+   <skill relevance="7">
+      <name>IMAP</name>
+      <category>protocol</category>
+      <category>mail</category>
    </skill>
    <skill relevance="3" href="https://www.cyrusimap.org">
       <name>imapd</name>
@@ -690,9 +742,17 @@
       <name>ITIL</name>
       <category>methodology</category>
    </skill>
+   <skill relevance="6" href="https://www.oracle.com/java/technologies/javase/j2se-v50.html">
+      <name>J2EE</name>
+      <category>java</category>
+      <version>1.4</version>
+      <version>5.0</version>
+   </skill>
    <skill level="expert" relevance="9" href="https://www.java.com">
       <name>java</name>
+      <name>J2SE</name>
       <category>language</category>
+      <category>java</category>
       <manufacturer>Oracle</manufacturer>
       <manufacturer>SUN</manufacturer>
       <version>1.4.2</version>
@@ -722,16 +782,14 @@
       <version>3.2.7</version>
    </skill>
    <skill relevance="3">
-      <name>jce</name>
+      <name>JCE</name>
       <category>java</category>
       <manufacturer>IAIK</manufacturer>
       <version>3.0.3</version>
    </skill>
    <skill relevance="7" href="https://www.jenkins.io">
       <name>jenkins</name>
-      <category>ci</category>
-      <manufacturer/>
-      <version/>
+      <category>CI</category>
    </skill>
    <skill relevance="7" href="https://www.atlassian.com/de/software/jira">
       <name>Jira</name>
@@ -752,6 +810,10 @@
       <category>java</category>
       <manufacturer>SUN</manufacturer>
    </skill>
+   <skill relevance="5">
+      <name>JNLP</name>
+      <category>java</category>
+   </skill>
    <skill relevance="7" href="https://jqlang.github.io/jq">
       <name>jq</name>
       <category>json</category>
@@ -763,6 +825,16 @@
       <name>json</name>
       <category>json</category>
       <category>serialization-format</category>
+   </skill>
+   <skill relevance="6" href="https://jsr.io">
+      <name>jsr</name>
+      <category>artifact store</category>
+      <category>javascript</category>
+   </skill>
+   <skill relevance="8" href="https://k3s.io">
+      <name>k3s</name>
+      <category>container</category>
+      <category>kubernetes</category>
    </skill>
    <skill relevance="7" href="https://koajs.com">
       <name>koa</name>
@@ -794,9 +866,10 @@
       <category>parser</category>
       <category>tool</category>
    </skill>
-   <skill relevance="9">
+   <skill relevance="9" href="https://www.kernel.org">
       <name>Linux</name>
       <category>os</category>
+      <version>6.0.9</version>
       <version>6.0</version>
       <version>6.1</version>
    </skill>
@@ -811,7 +884,7 @@
    </skill>
    <skill relevance="3">
       <name>luntbuild</name>
-      <category>ci</category>
+      <category>CI</category>
       <version>1.2.2</version>
    </skill>
    <skill relevance="2">
@@ -822,6 +895,7 @@
    <skill relevance="7" href="https://pubs.opengroup.org/onlinepubs/9699919799/utilities">
       <name>make</name>
       <category>build</category>
+      <category>tool</category>
    </skill>
    <skill relevance="2">
       <name>Marathon</name>
@@ -845,6 +919,10 @@
       <version>7.6</version>
       <version>7.8</version>
    </skill>
+   <skill relevance="4">
+      <name>MISS</name>
+      <category>finance</category>
+   </skill>
    <skill relevance="7" href="https://github.com/systemd/mkosi">
       <name>mkosi</name>
       <category>tool</category>
@@ -852,6 +930,45 @@
    </skill>
    <skill relevance="2">
       <name>Motif</name>
+   </skill>
+   <skill relevance="7" href="https://mqtt.org">
+      <name>MQTT</name>
+      <category>messaging</category>
+      <category>protocol</category>
+   </skill>
+   <skill relevance="1">
+      <name>MS-DOS</name>
+      <category>os</category>
+   </skill>
+   <skill relevance="5">
+      <name>MT100</name>
+      <category>finance</category>
+      <category>SWIFT</category>
+   </skill>
+   <skill relevance="5">
+      <name>MT101</name>
+      <category>finance</category>
+      <category>SWIFT</category>
+   </skill>
+   <skill relevance="5">
+      <name>MT103</name>
+      <category>finance</category>
+      <category>SWIFT</category>
+   </skill>
+   <skill relevance="5">
+      <name>MT198</name>
+      <category>finance</category>
+      <category>SWIFT</category>
+   </skill>
+   <skill relevance="5">
+      <name>MT940</name>
+      <category>finance</category>
+      <category>SWIFT</category>
+   </skill>
+   <skill relevance="5">
+      <name>MT942</name>
+      <category>finance</category>
+      <category>SWIFT</category>
    </skill>
    <skill relevance="4">
       <name>MVS/SNA</name>
@@ -861,6 +978,7 @@
    <skill relevance="5">
       <name>MX-Rates</name>
       <category>application</category>
+      <category>finance</category>
       <manufacturer>Murex</manufacturer>
    </skill>
    <skill relevance="6" href="https://www.mysql.com">
@@ -961,7 +1079,7 @@
       <category>hardware</category>
       <manufacturer>nCipher</manufacturer>
    </skill>
-   <skill relevance="7" href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">
+   <skill relevance="7" href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html" level="expert">
       <name>Objective-C</name>
       <category>language</category>
    </skill>
@@ -1009,12 +1127,12 @@
       <version>1.0.3</version>
    </skill>
    <skill relevance="5">
-      <name>osgi</name>
+      <name>OSGI</name>
       <category>java</category>
       <version>R3</version>
    </skill>
    <skill relevance="8" href="https://www.apple.com/de/macos">
-      <name>osx</name>
+      <name>OSX</name>
       <name>macos</name>
       <category>os</category>
       <manufacturer>Apple Inc.</manufacturer>
@@ -1023,6 +1141,16 @@
       <version>13.5</version>
       <version>14.1</version>
       <version>14.2</version>
+   </skill>
+   <skill relevance="5">
+      <name>PAYEXT</name>
+      <category>edi</category>
+      <category>finance</category>
+   </skill>
+   <skill relevance="5" href="https://unece.org/fileadmin/DAM/trade/untdid/d17b/trmd/paymul_c.htm">
+      <name>PAYMUL</name>
+      <category>edi</category>
+      <category>finance</category>
    </skill>
    <skill relevance="5">
       <name>PC</name>
@@ -1154,6 +1282,9 @@
       <category>storage</category>
       <manufacturer>SUN</manufacturer>
    </skill>
+   <skill relevance="4">
+      <name>rman</name>
+   </skill>
    <skill relevance="5">
       <name>rnc</name>
       <category>schema</category>
@@ -1279,6 +1410,11 @@
       <version>Kingston</version>
       <version>London</version>
    </skill>
+   <skill relevance="7">
+      <name>SMTP</name>
+      <category>protocol</category>
+      <category>mail</category>
+   </skill>
    <skill relevance="3">
       <name>SNA</name>
       <manufacturer>HP</manufacturer>
@@ -1290,7 +1426,7 @@
    </skill>
    <skill relevance="7" href="https://snyk.io">
       <name>Snyk</name>
-      <category>ci</category>
+      <category>CI</category>
       <category>security</category>
    </skill>
    <skill relevance="6" href="https://www.w3.org/TR/2000/NOTE-SOAP-20000508/">
@@ -1345,6 +1481,7 @@
    </skill>
    <skill relevance="5" href="https://subversion.apache.org">
       <name>subversion</name>
+      <name>Subversion</name>
       <category>version control</category>
       <version>1.1.4</version>
       <version>1.2.0</version>
@@ -1376,6 +1513,7 @@
    <skill relevance="8" href="https://svelte.dev">
       <name>svelte</name>
       <category>framework</category>
+      <category>javascript</category>
       <category>web</category>
       <version>3.23</version>
       <version>3.29</version>
@@ -1397,6 +1535,7 @@
    </skill>
    <skill relevance="9" href="https://systemd.io">
       <name>systemd</name>
+      <category>linux</category>
       <version>244.1</version>
       <version>244.2</version>
       <version>244.3</version>
@@ -1418,8 +1557,15 @@
    </skill>
    <skill relevance="7" href="https://www.jetbrains.com/teamcity">
       <name>TeamCity</name>
-      <category>ci</category>
+      <category>CI</category>
       <manufacturer>JetBrains</manufacturer>
+   </skill>
+   <skill relevance="8" href="https://www.terraform.io">
+      <name>terraform</name>
+      <category>IaC</category>
+      <category>tool</category>
+      <manufacturer>HashiCorp</manufacturer>
+      <version>1.7.4</version>
    </skill>
    <skill relevance="6" href="https://terser.org">
       <name>terser</name>
@@ -1451,10 +1597,6 @@
       <version>5.5</version>
       <version>6.0</version>
    </skill>
-   <skill relevance="5">
-      <name>tool</name>
-      <category>software</category>
-   </skill>
    <skill relevance="4">
       <name>tortoise svn</name>
       <category>version control</category>
@@ -1462,6 +1604,7 @@
    </skill>
    <skill relevance="5" href="https://tree-sitter.github.io/tree-sitter/">
       <name>tree-sitter</name>
+      <category>tool</category>
       <version>0.16</version>
    </skill>
    <skill relevance="6" href="https://www.ibm.com/docs/en/workload-automation">
@@ -1476,16 +1619,18 @@
    <skill relevance="9" href="https://www.typescriptlang.org">
       <name>typescript</name>
       <category>language</category>
+      <category>javascript</category>
       <version>3.9.0</version>
       <version>5.3.3</version>
       <version>1.2.0</version>
       <version>5.2.2</version>
       <version>5.3.2</version>
+      <version>5.4.2</version>
    </skill>
    <skill relevance="3">
       <name>Ultrix</name>
       <category>os</category>
-      <manufacturer>Digital</manufacturer>
+      <manufacturer>Digital Equipment Corporation</manufacturer>
    </skill>
    <skill relevance="3">
       <name>Unicenter</name>
@@ -1533,7 +1678,7 @@
    <skill relevance="3">
       <name>VMS</name>
       <category>os</category>
-      <manufacturer>Digital</manufacturer>
+      <manufacturer>Digital Equipment Corporation</manufacturer>
    </skill>
    <skill relevance="3">
       <name>Volume Manager</name>
@@ -1671,6 +1816,9 @@
       <version>1.2</version>
       <version>2.0</version>
    </skill>
+   <skill relevance="4">
+      <name>XETRA</name>
+   </skill>
    <skill relevance="3">
       <name>XETRA-GATE</name>
       <manufacturer>Deutsche Börse AG</manufacturer>
@@ -1681,8 +1829,13 @@
    </skill>
    <skill relevance="7" href="http://www.xml.com">
       <name>xml</name>
+      <name>XML</name>
       <category>serialization-format</category>
       <category>xml</category>
+   </skill>
+   <skill relevance="5">
+      <name>XML-RPC</name>
+      <name>XML</name>
    </skill>
    <skill relevance="5">
       <name>xom</name>
@@ -1691,12 +1844,20 @@
       <manufacturer>Harold, E.</manufacturer>
       <version>1.1</version>
    </skill>
-   <skill relevance="8">
-      <name>xsd</name>
-      <category>schema</category>
+   <skill relevance="7" level="expert">
+      <name>XPath</name>
       <category>xml</category>
    </skill>
+   <skill relevance="8" href="https://www.w3.org/TR/xmlschema-0/">
+      <name>XSD</name>
+      <category>schema</category>
+      <category>xml</category>
+      <version>1.0</version>
+      <version>1.1</version>
+   </skill>
    <skill level="expert" relevance="9" href="https://www.w3.org/Style/XSL/Overview-new.html">
+      <name>XSLT</name>
+      <name>XSL</name>
       <name>xslt</name>
       <category>language</category>
       <category>xml</category>

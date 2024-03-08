@@ -30,7 +30,7 @@
 				Formatkonvertierung, Konfigurationsmanagement
 			</details>
 			<details xml:lang="en">
-				format converters, config management
+				format converters, config management <skill>perl</skill>
 			</details>
 		</item>
 	</focus>
@@ -67,7 +67,7 @@
 				Implemenetation of an graphical user interface using dedicate hw acceleration.
 			</p>
 			<p>
-				Design and implementation of a 2d CAD system with scripting capabilities.
+				Design and implementation of a 2d CAD system with scripting capabilities <skill>C</skill>.
 			</p>
 		</details>
 
