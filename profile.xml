@@ -40,18 +40,18 @@
 		<to>2020/03</to>
 		<title>System Developer</title>
 		<customer>The Great Comany</customer>
-		<summary xml:lang="de">
+		<details xml:lang="de">
 			Design und Entwicklung eines Raster Overlay CAD Systems / Dokumentenarchiv,
 			Entwicklung eines Dokumenten- Management-Systems
 			für großformatige Zeichnungen und Karten, inklusive CAD - Schnittstelle,
 			Schulung, SW / HW - Installation, Integration in die bestehende DV
-		</summary>
-		<summary xml:lang="en">
+		</details>
+		<details xml:lang="en">
 			Design and development of a CAD overlay system for large scanned images (maps, technical
 			drawings).
 			Development of a document managment system.
 			Integration into customer infrastructure.
-		</summary>
+		</details>
 
 		<details xml:lang="de">
 			<p>
