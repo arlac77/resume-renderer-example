@@ -34,7 +34,7 @@
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/release-notes-generator": "^12.1.0",
-    "@types/node": "^20.11.26",
+    "@types/node": "^20.11.27",
     "npm-pkgbuild": "^15.1.0",
     "semantic-release": "^23.0.2",
     "stylelint": "^16.2.1",
