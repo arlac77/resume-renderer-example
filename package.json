@@ -44,7 +44,7 @@
     "xslt3": "^2.6.0"
   },
   "optionalDependencies": {
-    "mf-hosting-frontend": "^3.0.1"
+    "mf-hosting-frontend": "^3.0.2"
   },
   "repository": {
     "type": "git",
