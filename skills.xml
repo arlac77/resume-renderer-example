@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="node_modules/resume-renderer/schema/profile-1.0.rnc"?>
-<knowledge xmlns="http://mfelten.de/mf/profile">
+<knowledge xmlns:pro="http://mfelten.de/mf/profile" xmlns="http://mfelten.de/mf/profile">
    <skill relevance="3">
       <name>3/50-VME</name>
       <category>hardware</category>
@@ -57,10 +57,6 @@
    </skill>
    <skill relevance="8" href="http://agilemanifesto.org">
       <name>agile</name>
-      <category>methodology</category>
-   </skill>
-   <skill relevance="8" href="https://www.scrum.org">
-      <name>scrum</name>
       <category>methodology</category>
    </skill>
    <skill relevance="5" href="https://www.ibm.com/de-de/products/aix">
@@ -201,6 +197,10 @@
       <category>java</category>
       <version>1.26</version>
    </skill>
+   <skill relevance="7">
+      <pro:name>build</pro:name>
+      <category>task</category>
+   </skill>
    <skill relevance="8" href="https://buildah.io">
       <name>buildah</name>
       <category>build</category>
@@ -211,6 +211,11 @@
       <name>Builder</name>
       <manufacturer>Gupta</manufacturer>
    </skill>
+   <skill relevance="8" href="https://docs.docker.com/build/buildkit">
+      <name>BuildKit</name>
+      <category>build</category>
+      <category>container</category>
+   </skill>
    <skill relevance="8" href="https://bun.sh">
       <name>bun</name>
       <category>javascript</category>
@@ -219,9 +224,11 @@
       <version>1.0.15</version>
       <version>1.0.25</version>
       <version>1.0.29</version>
+      <version>1.0.30</version>
       <version>1.0.0</version>
       <version>1.0.2</version>
       <version>1.0.6</version>
+      <version>1.1.8</version>
    </skill>
    <skill level="expert" relevance="9" href="https://www.iso.org/standard/74528.html">
       <name>C</name>
@@ -271,9 +278,11 @@
       <category>tool</category>
       <version>3.19.1</version>
       <version>3.28.0</version>
+      <version>3.29.0</version>
+      <version>3.29.2</version>
    </skill>
    <skill relevance="8">
-      <name>code review</name>
+      <name>Code Review</name>
       <category>methodology</category>
    </skill>
    <skill relevance="4">
@@ -353,6 +362,15 @@
       <category>CI</category>
       <manufacturer>Microsoft</manufacturer>
    </skill>
+   <skill relevance="7">
+      <pro:name>deploy</pro:name>
+      <category>task</category>
+   </skill>
+   <skill relevance="8">
+      <name xml:lang="en">Development</name>
+      <name xml:lang="en">Entwickling</name>
+      <category>task</category>
+   </skill>
    <skill relevance="8">
       <name>DevOps</name>
       <category>methodology</category>
@@ -386,7 +404,8 @@
       <category>cloud</category>
       <category>container</category>
       <version>25.0.3</version>
-      <version>1.25.0</version>
+      <version>26.0</version>
+      <version>26.0.1</version>
       <version>1.13</version>
    </skill>
    <skill relevance="4">
@@ -546,6 +565,7 @@
       <version>1.21.1</version>
       <version>1.21.6</version>
       <version>1.21.7</version>
+      <version>1.21.11</version>
    </skill>
    <skill relevance="8" href="https://github.com">
       <name>github</name>
@@ -599,6 +619,11 @@
       <name>greenkeeper</name>
       <category>CI</category>
    </skill>
+   <skill relevance="7" href="https://public.dhe.ibm.com/eserver/zseries/zos/unix/ftp/docs/unixsec3.pdf">
+      <name>GSD331</name>
+      <category>security</category>
+      <manufacturer>IBM</manufacturer>
+   </skill>
    <skill relevance="5" href="https://www.vmware.com">
       <name>gsx</name>
       <manufacturer>vmware</manufacturer>
@@ -629,6 +654,7 @@
       <version>3.13.3</version>
       <version>3.14.0</version>
       <version>3.14.1</version>
+      <version>3.14.3</version>
       <version>2</version>
    </skill>
    <skill relevance="9" href="https://hibernate.org">
@@ -735,6 +761,7 @@
    </skill>
    <skill relevance="4">
       <name>iPlanet LDAP</name>
+      <category>ldap</category>
       <manufacturer>SUN</manufacturer>
       <version>4</version>
    </skill>
@@ -826,6 +853,12 @@
       <category>json</category>
       <category>serialization-format</category>
    </skill>
+   <skill relevance="8" href="https://json-schema.org">
+      <name>JSON Schema</name>
+      <category>schema</category>
+      <category>json</category>
+      <version>2020-12</version>
+   </skill>
    <skill relevance="6" href="https://jsr.io">
       <name>jsr</name>
       <category>artifact store</category>
@@ -843,6 +876,7 @@
       <version>2.13.0</version>
       <version>2.14.0</version>
       <version>2.15.0</version>
+      <version>2.15.1</version>
    </skill>
    <skill relevance="3">
       <name>ksar</name>
@@ -850,13 +884,27 @@
       <version>3</version>
       <version>4.0</version>
    </skill>
+   <skill relevance="8" href="https://kubernetes.io/docs/reference/kubectl/">
+      <name>kubectl</name>
+      <category>tool</category>
+      <category>container</category>
+      <category>kubernetes</category>
+      <version>1.29.0</version>
+      <version>1.29.4</version>
+   </skill>
    <skill relevance="2">
       <name>LD 4600</name>
       <category>hardware</category>
       <manufacturer>CISCO</manufacturer>
    </skill>
    <skill relevance="7">
+      <name>LDAP</name>
+      <name>ldap</name>
+      <category>protocol</category>
+   </skill>
+   <skill relevance="7">
       <name>ldap server</name>
+      <category>ldap</category>
       <manufacturer>Netscape</manufacturer>
       <manufacturer>SUN/ONE</manufacturer>
       <version>4</version>
@@ -1035,6 +1083,7 @@
       <version>1.25.2</version>
       <version>1.25.3</version>
       <version>1.25.4</version>
+      <version>1.25.5</version>
    </skill>
    <skill relevance="9" href="https://nodejs.org">
       <name>Node.js</name>
@@ -1046,6 +1095,7 @@
       <version>21.6.1</version>
       <version>21.6.2</version>
       <version>20.6.1</version>
+      <version>21.7.3</version>
       <version>0.10</version>
       <version>0.12</version>
       <version>0.6</version>
@@ -1093,6 +1143,7 @@
    </skill>
    <skill relevance="7" href="https://www.openldap.org">
       <name>openldap</name>
+      <category>ldap</category>
       <category>iam</category>
       <version>2.6.6</version>
       <version>2.0</version>
@@ -1180,6 +1231,12 @@
       <category>application</category>
       <manufacturer>PIUSS</manufacturer>
    </skill>
+   <skill relevance="8" href="https://playwright.dev">
+      <name>playwright</name>
+      <category>web</category>
+      <category>tool</category>
+      <version>1.42.1</version>
+   </skill>
    <skill relevance="8" href="https://podman.io">
       <name>podman</name>
       <category>container</category>
@@ -1198,6 +1255,8 @@
       <version>4.8.3</version>
       <version>4.9.1</version>
       <version>4.9.3</version>
+      <version>5.0.2</version>
+      <version>5.0</version>
    </skill>
    <skill relevance="3">
       <name>Poseidon</name>
@@ -1220,6 +1279,8 @@
       <category>database</category>
       <version>12.4</version>
       <version>13.0</version>
+      <version>16.0</version>
+      <version>16.2</version>
    </skill>
    <skill relevance="2">
       <name>PowerBook</name>
@@ -1245,6 +1306,12 @@
       <version>2.6</version>
       <version>2.7</version>
    </skill>
+   <skill relevance="8" href="https://www.qemu.org">
+      <name>qemu</name>
+      <category>system emulation</category>
+      <version>8.2.2</version>
+      <version>9.0.0</version>
+   </skill>
    <skill relevance="4" href="https://rubyonrails.org">
       <name>rails</name>
       <category>web</category>
@@ -1255,6 +1322,12 @@
       <category>message broker</category>
       <version>5.0</version>
       <version>6.0</version>
+   </skill>
+   <skill relevance="8" href="https://redocly.com">
+      <name>redocly</name>
+      <category>api</category>
+      <version>1.10</version>
+      <version>1.11</version>
    </skill>
    <skill relevance="7" href="https://relaxng.org">
       <name>Relax NG</name>
@@ -1284,6 +1357,8 @@
    </skill>
    <skill relevance="4">
       <name>rman</name>
+      <category>tool</category>
+      <manufacturer>Oracle</manufacturer>
    </skill>
    <skill relevance="5">
       <name>rnc</name>
@@ -1328,6 +1403,7 @@
    </skill>
    <skill relevance="6" href="https://rsync.samba.org">
       <name>rsync</name>
+      <category>tool</category>
       <version>2.6</version>
    </skill>
    <skill relevance="3" href="https://www.ruby-lang.org">
@@ -1383,6 +1459,7 @@
       <category>xml</category>
    </skill>
    <skill relevance="8" href="https://www.scrum.org">
+      <name>scrum</name>
       <name>SCRUM</name>
       <category>methodology</category>
    </skill>
@@ -1431,8 +1508,9 @@
    </skill>
    <skill relevance="6" href="https://www.w3.org/TR/2000/NOTE-SOAP-20000508/">
       <name>SOAP</name>
-      <category>webservice</category>
       <category>xml</category>
+      <category>protocol</category>
+      <category>webservice</category>
       <version>1.1</version>
    </skill>
    <skill relevance="5">
@@ -1533,6 +1611,11 @@
       <name>swift</name>
       <category>language</category>
    </skill>
+   <skill relevance="7">
+      <name>system hardening</name>
+      <category>security</category>
+      <category>methodology</category>
+   </skill>
    <skill relevance="9" href="https://systemd.io">
       <name>systemd</name>
       <category>linux</category>
@@ -1543,6 +1626,7 @@
       <version>246.5</version>
       <version>247.4</version>
       <version>255.3</version>
+      <version>255.4</version>
    </skill>
    <skill relevance="7" href="https://tailwindcss.com">
       <name>tailwindcss</name>
@@ -1571,6 +1655,10 @@
       <name>terser</name>
       <category>javascript</category>
       <version>4.7.0</version>
+   </skill>
+   <skill relevance="7">
+      <pro:name>test</pro:name>
+      <category>task</category>
    </skill>
    <skill relevance="5">
       <name>Test Director</name>
@@ -1607,6 +1695,12 @@
       <category>tool</category>
       <version>0.16</version>
    </skill>
+   <skill relevance="8" href="https://www.soprasteria.de/products/tributum">
+      <name>tributum</name>
+      <category>finance</category>
+      <category>application</category>
+      <category>J2EE</category>
+   </skill>
    <skill relevance="6" href="https://www.ibm.com/docs/en/workload-automation">
       <name>TWS</name>
       <name>Tivoli Workload Scheduler</name>
@@ -1626,6 +1720,7 @@
       <version>5.2.2</version>
       <version>5.3.2</version>
       <version>5.4.2</version>
+      <version>5.4.5</version>
    </skill>
    <skill relevance="3">
       <name>Ultrix</name>
@@ -1667,6 +1762,7 @@
       <version>5.0.6</version>
       <version>5.0.12</version>
       <version>5.1.14</version>
+      <version>5.2.9</version>
       <version>2.5</version>
       <version>2.9</version>
       <version>3.0</version>
@@ -1696,6 +1792,7 @@
       <version>1.84.2</version>
       <version>1.85.0</version>
       <version>1.86.2</version>
+      <version>1.88.1</version>
       <version>1.28</version>
    </skill>
    <skill relevance="3">
@@ -1835,7 +1932,7 @@
    </skill>
    <skill relevance="5">
       <name>XML-RPC</name>
-      <name>XML</name>
+      <category>xml</category>
    </skill>
    <skill relevance="5">
       <name>xom</name>
@@ -1847,6 +1944,7 @@
    <skill relevance="7" level="expert">
       <name>XPath</name>
       <category>xml</category>
+      <version>3.0</version>
    </skill>
    <skill relevance="8" href="https://www.w3.org/TR/xmlschema-0/">
       <name>XSD</name>
@@ -1879,6 +1977,7 @@
    <skill relevance="5">
       <name>yacc</name>
       <category>parser</category>
+      <category>tool</category>
    </skill>
    <skill relevance="9" href="https://yaml.org">
       <name>yaml</name>
@@ -1890,6 +1989,11 @@
       <category>javascript</category>
       <version>1.21</version>
       <version>1.22</version>
+   </skill>
+   <skill relevance="5" href="https://www.ibm.com/z/linux">
+      <name>Z-OS/Linux</name>
+      <category>os</category>
+      <manufacturer>IBM</manufacturer>
    </skill>
    <skill relevance="9" href="https://ziglang.org">
       <name>zig</name>
