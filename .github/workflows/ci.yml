@@ -16,14 +16,6 @@ jobs:
     strategy:
       matrix:
         node-version:
-          - 20.15.0
-          - 20.15.1
-          - 20.16.0
-          - 22.3.0
-          - 22.4.0
-          - 22.4.1
-          - 22.5.0
-          - 22.5.1
           - 22.6.0
     steps:
       - name: checkout
@@ -35,7 +27,7 @@ jobs:
           cache: npm
           cache-dependency-path: package-lock.json
       - run: sudo apt-get -y install fop
-      - name: checkout
+      - name: install
         run: npm ci
       - name: test and coverage
         run: npm run cover --if-present
@@ -86,7 +78,7 @@ jobs:
           node-version: 22.6.0
           cache: npm
           cache-dependency-path: package-lock.json
-      - name: checkout
+      - name: install
         run: npm ci
       - name: release
         run: npx semantic-release
