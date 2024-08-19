@@ -54,7 +54,7 @@ jobs:
       id-token: write
     steps:
       - run: sudo apt-get -y install fop
-      - name: Dependencies
+      - name: install dependencies
         run: >
           if [ ! -f /usr/bin/pacman ]
 
