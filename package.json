@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "playwright": "^1.47.1",
-    "resume-renderer": "^6.2.2"
+    "resume-renderer": "^6.2.3"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.0",
