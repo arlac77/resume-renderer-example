@@ -7,7 +7,8 @@
   },
   "description": "resume-renderer example",
   "keywords": [
-    "vite"
+    "vite",
+    "example"
   ],
   "contributors": [
     {
