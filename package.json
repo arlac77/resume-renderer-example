@@ -7,8 +7,8 @@
   },
   "description": "resume-renderer example",
   "keywords": [
-    "vite",
-    "example"
+    "example",
+    "vite"
   ],
   "contributors": [
     {
@@ -37,7 +37,7 @@
     "@semantic-release/github": "^11.0.0",
     "@semantic-release/release-notes-generator": "^14.0.1",
     "@types/node": "^22.7.2",
-    "npm-pkgbuild": "^15.5.3",
+    "npm-pkgbuild": "^15.5.4",
     "semantic-release": "^24.1.1",
     "stylelint": "^16.9.0",
     "stylelint-config-standard": "^36.0.1",
