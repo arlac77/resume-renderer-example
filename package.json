@@ -62,8 +62,7 @@
     },
     "example": true,
     "frontend": true,
-    "nginx.location.trailer": "  access_log off; ",
-    "static": true
+    "nginx.location.trailer": "  access_log off; "
   },
   "release": {
     "plugins": [
