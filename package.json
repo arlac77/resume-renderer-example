@@ -18,11 +18,11 @@
   ],
   "license": "BSD-2-Clause",
   "scripts": {
-    "prepare": "npm run prepare:vite",
+    "prepare": "node --run prepare:vite",
     "prepare:vite": "vite build",
     "start": "vite",
     "lint:css": "stylelint ./src/*.css",
-    "lint": "npm run lint:css",
+    "lint": "node --run lint:css",
     "lint:xml": "rnv node_modules/resume-renderer/schema/profile-1.0.rnc profile.xml",
     "preview": "vite preview",
     "update-skills": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2skills.xsl skills.url=file:$(pwd)/skills.xml -s:profile.xml >skills-new.xml"
