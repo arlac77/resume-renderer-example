@@ -28,7 +28,7 @@
     "update-skills": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2skills.xsl skills.url=file:$(pwd)/skills.xml -s:profile.xml >skills-new.xml"
   },
   "dependencies": {
-    "playwright": "^1.51.1",
+    "playwright": "^1.52.0",
     "resume-renderer": "^6.4.0"
   },
   "devDependencies": {
