@@ -101,6 +101,7 @@
       <version>11.0.0</version>
       <version>11.2.0</version>
       <version>11.3.0</version>
+      <version>11.7.0</version>
    </skill>
    <skill level="expert" relevance="3" href="https://ant.apache.org">
       <name>ant</name>
@@ -161,16 +162,21 @@
       <version>6.0</version>
       <version>6.1</version>
       <version>6.3</version>
+      <version>6.4</version>
    </skill>
-   <skill relevance="7">
+   <skill relevance="7" href="https://www.rsa.com/products/governance-lifecycle/">
       <name>Aveksa Compliance Manager</name>
+      <name>IMG</name>
+      <name>RSA Identity Governance &amp; Lifecycle</name>
       <name>RSA Identity Management and Governance</name>
       <category>iam</category>
       <manufacturer>Aveksa</manufacturer>
+      <manufacturer>RSA</manufacturer>
       <version>4.2</version>
       <version>5.1</version>
       <version>5.5</version>
       <version>6.8</version>
+      <version>7.0</version>
    </skill>
    <skill relevance="6">
       <name>Axis</name>
@@ -204,6 +210,7 @@
       <category>dns</category>
       <manufacturer>ISC</manufacturer>
       <version>9.20.2</version>
+      <version>9.20.10</version>
    </skill>
    <skill relevance="8" href="https://bitbucket.org/product/">
       <name>Bitbucket</name>
@@ -428,13 +435,16 @@
    </skill>
    <skill relevance="8">
       <name>design</name>
+      <name>Design</name>
       <name xml:lang="de">Konzeption</name>
       <name xml:lang="en">design</name>
       <category>methodology</category>
    </skill>
    <skill relevance="8">
       <name>development</name>
-      <name xml:lang="de">Entwickling</name>
+      <name>Development</name>
+      <name>Entwicklung</name>
+      <name xml:lang="de">Entwicklung</name>
       <name xml:lang="en">Development</name>
       <category>task</category>
    </skill>
@@ -480,6 +490,7 @@
       <version>27.4.1</version>
       <version>27.5.0</version>
       <version>28.0.0</version>
+      <version>28.2.0</version>
    </skill>
    <skill>
       <name>docker-buildx</name>
@@ -546,6 +557,17 @@
       <version>3.0</version>
       <version>3.1</version>
       <version>3.2.1</version>
+   </skill>
+   <skill level="expert" relevance="9" href="https://ecma-international.org/publications-and-standards/standards/ecma-262">
+      <name>ecmascript</name>
+      <name>javascript</name>
+      <category>language</category>
+      <version>1.3</version>
+      <version>ES2015</version>
+      <version>ES2016</version>
+      <version>ES2020</version>
+      <version>ES2022</version>
+      <version>ES2023</version>
    </skill>
    <skill relevance="5" href="https://unece.org/trade/uncefact">
       <name>EDI</name>
@@ -679,6 +701,7 @@
       <version>2.47.1</version>
       <version>2.48.1</version>
       <version>2.49.0</version>
+      <version>2.50.0</version>
    </skill>
    <skill relevance="8" href="https://about.gitea.com">
       <name>gitea</name>
@@ -696,6 +719,7 @@
       <version>1.22.6</version>
       <version>1.23.4</version>
       <version>1.23.7</version>
+      <version>1.24.2</version>
    </skill>
    <skill relevance="8" href="https://github.com">
       <name>github</name>
@@ -822,6 +846,7 @@
    </skill>
    <skill level="expert" relevance="8" href="https://www.ibm.com/products/mq">
       <name>IBM MQ</name>
+      <name>MQ-Series</name>
       <category>message broker</category>
       <category>messaging</category>
       <manufacturer>IBM</manufacturer>
@@ -855,12 +880,11 @@
       <category>mda</category>
       <manufacturer>cyrus</manufacturer>
    </skill>
-   <skill relevance="8">
-      <name>IMG</name>
-      <category>iam</category>
-      <manufacturer>RSA</manufacturer>
-      <version>6.8</version>
-      <version>7.0</version>
+   <skill relevance="7" href="https://www.influxdata.com">
+      <name>influxdb</name>
+      <category>database</category>
+      <category>timeseries</category>
+      <version>2.7.10</version>
    </skill>
    <skill relevance="3">
       <name>InstallShield</name>
@@ -911,8 +935,8 @@
       <version>5.0</version>
    </skill>
    <skill level="expert" relevance="9" href="https://www.java.com">
-      <name>java</name>
       <name>J2SE</name>
+      <name>java</name>
       <category>java</category>
       <category>language</category>
       <manufacturer>Oracle</manufacturer>
@@ -923,17 +947,6 @@
       <version>1.5</version>
       <version>1.6</version>
       <version>1.8</version>
-   </skill>
-   <skill level="expert" relevance="9" href="https://ecma-international.org/publications-and-standards/standards/ecma-262">
-      <name>ecmascript</name>
-      <name>javascript</name>
-      <category>language</category>
-      <version>1.3</version>
-      <version>ES2015</version>
-      <version>ES2016</version>
-      <version>ES2020</version>
-      <version>ES2022</version>
-      <version>ES2023</version>
    </skill>
    <skill relevance="7" href="https://www.redhat.com/de/technologies/jboss-middleware/application-platform">
       <name>jboss</name>
@@ -1011,6 +1024,7 @@
       <category>network</category>
       <manufacturer>ISC</manufacturer>
       <version>2.6.1</version>
+      <version>2.6.2</version>
    </skill>
    <skill relevance="8" href="https://www.keepalived.org">
       <name>keepalived</name>
@@ -1018,6 +1032,7 @@
       <category>linux</category>
       <category>network</category>
       <version>2.3.2</version>
+      <version>2.3.4</version>
    </skill>
    <skill relevance="7" href="https://koajs.com">
       <name>koa</name>
@@ -1027,6 +1042,9 @@
       <version>2.14.0</version>
       <version>2.15.0</version>
       <version>2.15.1</version>
+   </skill>
+   <skill>
+      <name>Konzeption</name>
    </skill>
    <skill relevance="3">
       <name>ksar</name>
@@ -1048,8 +1066,8 @@
       <manufacturer>CISCO</manufacturer>
    </skill>
    <skill relevance="7">
-      <name>LDAP</name>
       <name>ldap</name>
+      <name>LDAP</name>
       <category>protocol</category>
    </skill>
    <skill relevance="7">
@@ -1089,6 +1107,18 @@
       <name>M80</name>
       <category>hardware</category>
       <manufacturer>IBM</manufacturer>
+   </skill>
+   <skill relevance="8" href="https://www.apple.com/de/macos">
+      <name>macos</name>
+      <name>OSX</name>
+      <category>os</category>
+      <manufacturer>Apple Inc.</manufacturer>
+      <version>10.7</version>
+      <version>10.8</version>
+      <version>13.5</version>
+      <version>14.1</version>
+      <version>14.2</version>
+      <version>15.5</version>
    </skill>
    <skill relevance="6" href="https://www.ibm.com/docs/en/workload-automation">
       <name>Maestro</name>
@@ -1135,13 +1165,22 @@
       <category>tool</category>
       <version>14-3</version>
    </skill>
-   <skill relevance="2">
+   <skill relevance="7" href="https://mosquitto.org">
+      <name>mosquitto</name>
+      <category>messaging</category>
+      <category>mqtt</category>
+      <manufacturer>eclipse</manufacturer>
+      <version>2.0.21</version>
+   </skill>
+   <skill relevance="2" href="https://motif.ics.com/motif/">
       <name>Motif</name>
    </skill>
    <skill relevance="7" href="https://mqtt.org">
       <name>MQTT</name>
       <category>messaging</category>
       <category>protocol</category>
+      <version>4</version>
+      <version>5</version>
    </skill>
    <skill relevance="1">
       <name>MS-DOS</name>
@@ -1292,6 +1331,8 @@
       <version>23.9.0</version>
       <version>23.10.0</version>
       <version>23.11.0</version>
+      <version>24.1.0</version>
+      <version>24.2.0</version>
    </skill>
    <skill relevance="7" href="https://www.npmjs.com">
       <name>npm</name>
@@ -1361,18 +1402,6 @@
       <category>java</category>
       <version>R3</version>
    </skill>
-   <skill relevance="8" href="https://www.apple.com/de/macos">
-      <name>macos</name>
-      <name>OSX</name>
-      <category>os</category>
-      <manufacturer>Apple Inc.</manufacturer>
-      <version>10.7</version>
-      <version>10.8</version>
-      <version>13.5</version>
-      <version>14.1</version>
-      <version>14.2</version>
-      <version>15.5</version>
-   </skill>
    <skill relevance="5">
       <name>PAYEXT</name>
       <category>edi</category>
@@ -1424,6 +1453,7 @@
       <version>1.47.0</version>
       <version>1.47.1</version>
       <version>1.48.1</version>
+      <version>1.53.1</version>
    </skill>
    <skill relevance="8" href="https://podman.io">
       <name>podman</name>
@@ -1502,6 +1532,7 @@
    </skill>
    <skill relevance="8" href="https://www.qemu.org">
       <name>qemu</name>
+      <name>QEMU</name>
       <category>system emulation</category>
       <version>8.2.2</version>
       <version>9.0.0</version>
@@ -1903,6 +1934,7 @@
    </skill>
    <skill relevance="8" href="https://www.soprasteria.de/products/tributum">
       <name>tributum</name>
+      <name>Tributum</name>
       <category>application</category>
       <category>finance</category>
       <category>J2EE</category>
@@ -1957,6 +1989,26 @@
       <category>java</category>
       <manufacturer>Symantec</manufacturer>
    </skill>
+   <skill relevance="9" href="https://code.visualstudio.com">
+      <name>Visual Studio Code</name>
+      <name>vscode</name>
+      <category>ide</category>
+      <manufacturer>Microsoft</manufacturer>
+      <version>1.28</version>
+      <version>1.81.1</version>
+      <version>1.82.2</version>
+      <version>1.84.1</version>
+      <version>1.84.2</version>
+      <version>1.85.0</version>
+      <version>1.86.2</version>
+      <version>1.88.1</version>
+      <version>1.91.1</version>
+      <version>1.92.2</version>
+      <version>1.96.2</version>
+      <version>1.96.4</version>
+      <version>1.99.3</version>
+      <version>1.100.2</version>
+   </skill>
    <skill level="expert" relevance="9" href="https://vitejs.dev">
       <name>vite</name>
       <category>tool</category>
@@ -1992,6 +2044,7 @@
       <version>6.2.0</version>
       <version>6.3.2</version>
       <version>6.3.5</version>
+      <version>7.0.0</version>
    </skill>
    <skill>
       <name>vitepress</name>
@@ -2008,26 +2061,6 @@
       <name>Volume Manager</name>
       <category>storage</category>
       <manufacturer>Veritas</manufacturer>
-   </skill>
-   <skill relevance="9" href="https://code.visualstudio.com">
-      <name>Visual Studio Code</name>
-      <name>vscode</name>
-      <category>ide</category>
-      <manufacturer>Microsoft</manufacturer>
-      <version>1.28</version>
-      <version>1.81.1</version>
-      <version>1.82.2</version>
-      <version>1.84.1</version>
-      <version>1.84.2</version>
-      <version>1.85.0</version>
-      <version>1.86.2</version>
-      <version>1.88.1</version>
-      <version>1.91.1</version>
-      <version>1.92.2</version>
-      <version>1.96.2</version>
-      <version>1.96.4</version>
-      <version>1.99.3</version>
-      <version>1.100.2</version>
    </skill>
    <skill relevance="3">
       <name>VxFS</name>
@@ -2191,9 +2224,9 @@
       <version>1.1</version>
    </skill>
    <skill level="expert" relevance="9" href="https://www.w3.org/Style/XSL/Overview-new.html">
-      <name>XSLT</name>
       <name>XSL</name>
       <name>xslt</name>
+      <name>XSLT</name>
       <category>language</category>
       <category>xml</category>
       <version>2.0</version>
