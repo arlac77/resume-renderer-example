@@ -28,7 +28,7 @@
     "update-skills": "xslt3 -xsl:node_modules/resume-renderer/xslt/profile2skills.xsl skills.url=file:$(pwd)/skills.xml -s:profile.xml >skills-new.xml"
   },
   "dependencies": {
-    "playwright": "^1.55.1",
+    "playwright": "^1.56.0",
     "resume-renderer": "^6.7.1"
   },
   "devDependencies": {
@@ -36,11 +36,11 @@
     "@semantic-release/exec": "^7.1.0",
     "@semantic-release/github": "^11.0.6",
     "@semantic-release/release-notes-generator": "^14.1.0",
-    "@types/node": "^24.6.2",
+    "@types/node": "^24.7.0",
     "npm-pkgbuild": "^18.3.9",
     "semantic-release": "^24.2.9",
     "stylelint": "^16.25.0",
-    "stylelint-config-standard": "^39.0.0",
+    "stylelint-config-standard": "^39.0.1",
     "vite": "^7.1.9",
     "vite-plugin-compression2": "^2.2.1",
     "xslt3": "^2.7.0"
