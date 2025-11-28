@@ -74,8 +74,9 @@ export default defineConfig(async ({ command, mode }) => {
     root: "src",
     plugins: [
       compression({
-        algorithm: "brotliCompress",
+        algorithms: ["brotliCompress"],
         exclude: [
+          /\.(map)$/,
           /\.(br)$/,
           /\.(gz)$/,
           /\.(png)$/,
