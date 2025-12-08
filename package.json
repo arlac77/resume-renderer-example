@@ -5,6 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "packageManager": "npm@11.6.4+sha512.1118cab46a05a50aee6bff5b1b4fa1df18afff89d57465620a3518035026955db87c5bdf9d207b07b7487d99f2490d450cb774655ad63ec2cba7bf1d0ad25d45",
   "description": "resume-renderer example",
   "keywords": [
     "example",
@@ -16,7 +17,7 @@
       "email": "markus.felten@gmx.de"
     }
   ],
-  "license": "BSD-2-Clause",
+  "license": "0BSD",
   "scripts": {
     "prepare": "node --run prepare:vite",
     "prepare:vite": "vite build",
@@ -126,6 +127,5 @@
       "arlac77/template-vite",
       "arlac77/template-xslt"
     ]
-  },
-  "packageManager": "npm@11.6.4+sha512.1118cab46a05a50aee6bff5b1b4fa1df18afff89d57465620a3518035026955db87c5bdf9d207b07b7487d99f2490d450cb774655ad63ec2cba7bf1d0ad25d45"
+  }
 }
