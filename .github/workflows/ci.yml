@@ -26,7 +26,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
-          cache-dependency-path: package-lock.json
       - run: sudo apt-get -y install fop
       - name: install
         run: npm ci
@@ -68,7 +67,6 @@ jobs:
         with:
           node-version: 24.11.1
           cache: npm
-          cache-dependency-path: package-lock.json
       - name: install
         run: npm ci
       - name: release
