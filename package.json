@@ -59,11 +59,11 @@
   "homepage": "https://github.com/arlac77/resume-renderer-example#readme",
   "pkgbuild": {
     "content": {
-      "${install.dir}": "dist/"
+      "${install_dir}": "dist/"
     },
     "example": true,
     "frontend": true,
-    "nginx.location.trailer": "  access_log off; "
+    "nginx_location_trailer": "  access_log off; "
   },
   "release": {
     "plugins": [
