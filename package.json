@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "npm@11.10.0",
+  "packageManager": "npm@11.13.0",
   "description": "resume-renderer example",
   "keywords": [
     "example",
