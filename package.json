@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "npm@11.18.0",
+  "packageManager": "npm@11.20.0",
   "description": "resume-renderer example",
   "keywords": [
     "example",
@@ -42,7 +42,7 @@
     "semantic-release": "^25.0.9",
     "stylelint": "^18.0.0",
     "stylelint-config-standard": "^41.0.0",
-    "vite": "^8.3.6",
+    "vite": "^8.3.8",
     "vite-plugin-compression2": "^2.5.4",
     "xslt3": "^2.7.0"
   },
